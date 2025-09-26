@@ -10,10 +10,10 @@ const knowledgeHub = [
     link: "/resources/blogs",
   },
   {
-    title: "Case Studies",
+    title: "News letter",
     desc: "Real examples of impact and results.",
     img: "/bro.png",
-    link: "/case-studies",
+    link: "/resources/newsletter",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function Resources() {
   const router = useRouter();
 
   return (
-    <section className="w-full px-6 md:px-22 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFFF]">
+    <section className="w-full  px-6 md:px-22 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FFFFFF]">
       {/* Knowledge Hub */}
       <div>
         <h2 className="text-sm font-semibold tracking-wide text-gray-600 mb-4">

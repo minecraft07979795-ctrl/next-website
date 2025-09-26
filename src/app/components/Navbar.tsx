@@ -13,7 +13,7 @@ const navItems = [
   { label: "Regulations", href: "/Regulations" },
   { label: "Why us", href: "/whyus" },
   // { label: "Resources", hasDropdown: true },
-  { label: "Resources", href: "/Resources" },
+  { label: "Resources", href: "/resources" },
   { label: "Company",  href: "/Company" },
   { label: "Education",  href: "/education" },
 ];
@@ -44,7 +44,7 @@ const resourcesItems = [
   {label:"News letter" , href:"/resources/newsletter",image:"/amico.png"},
   {label:"Blogs" , href:"/resources/blogs",image:"/amico.png"},
 ]
-
+ 
 export default function Navbar() {
   const { scrollToContact } = useContact();
   const [activeDropdown, setActiveDropdown] = useState("");
@@ -91,7 +91,7 @@ export default function Navbar() {
     //   return RegulationsItems.some(RegulationsItems => pathname === RegulationsItems.href);
     // }
     
-    if (item.label === "Resources") {
+    if (item.label === "resources") {
       return resourcesItems.some(resource => pathname === resource.href);
     }
     
@@ -164,7 +164,7 @@ export default function Navbar() {
                     {item.label}
                     {/* Active indicator for regular links */}
                     {isActive && (
-                      <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#6EED88] rounded-full"></div>
+                      <div className="absolute hover:text-[#6EED88] bottom-0 left-0 right-0 h-0.5 bg-[#6EED88] rounded-full"></div>
                     )}
                   </Link>
                 )}
