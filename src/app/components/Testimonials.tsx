@@ -12,29 +12,29 @@ export default function TestimonialsSection(){
   const testimonials = [
     {
       id: 1,
-      quote: "Carbonscan helped us trace over 60% of our raw materials in less than 3 months, with full verification. Their team understands both the tech and the real-world problems of sustainability.",
-      name: "Seraphina Rossi",
-      title: "CEO",
-      company: "B77, Fashion brand",
-      avatar: "/csrd.png",
-      initials: "SR"
+      quote: "CarbonScan uses AI to make tracking emissions easier and faster, helping businesses, especially SMEs, take part confidently in Malaysia’s journey toward a net-zero carbon economy.",
+      name: "Dr. Geetha Nadajaran",
+      title: "CTO & Data Scientist",
+      // company: "B77, Fashion brand",
+      avatar: "/geet.png",
+      initials: "GN"
     },
     {
       id: 2,
-      quote: "The platform's AI-driven insights transformed our sustainability reporting. We reduced our carbon footprint by 35% in the first year using their recommendations.",
-      name: "Michael Chen",
-      title: "Sustainability Director",
-      company: "EcoTech Solutions",
-      avatar: "/csrd.png",
+      quote: "Carbonscan made it so much easier for us to track and report our Scope 1 & 2 emissions. The platform is clear, aligned with Malaysian standards, and ready for verification. A big step forward for our sustainability journey.",
+      name: "Norhaidi",
+      title: "CEO of Eddi Group",
+      // company: "EcoTech Solutions",
+      avatar: "/Norhaidide.png",
       initials: "MC"
     },
     {
       id: 3,
-      quote: "Outstanding support and incredible results. Their carbon accounting tools are industry-leading and helped us achieve our net-zero commitments ahead of schedule.",
-      name: "Sarah Williams",
-      title: "Chief Operations Officer",
-      company: "Green Manufacturing Inc.",
-      avatar: "/csrd.png",
+      quote: "Malaysia aims for net zero by 2050. CarbonScan helps businesses, especially SMEs, track emissions easily, access green funding, and supports the country in leading sustainable growth and eco-friendly innovation.",
+      name: "Dato’ Ahmad Shukri",
+      title: "Chairman of Eddi Group",
+      // company: "Green Manufacturing Inc.",
+      avatar: "/Shukridem.png",
       initials: "SW"
     }
   ];
@@ -145,9 +145,9 @@ export default function TestimonialsSection(){
                   <h4 className="text-lg font-normal text-gray-900 text-[20px] transition-all duration-700">
                     {currentData.name}, {currentData.title}
                   </h4>
-                  <p className="text-gray-600 transition-all text-[18px] duration-700">
+                  {/* <p className="text-gray-600 transition-all text-[18px] duration-700">
                     {currentData.company}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
