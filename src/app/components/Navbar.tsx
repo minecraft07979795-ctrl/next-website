@@ -1,5 +1,3 @@
- 
-
 "use client";
 
 import Link from "next/link";
@@ -18,10 +16,7 @@ const navItems = [
   { label: "Education",  href: "/education" },
 ];
 
-const industriesItems = [
-  { label: "Textile", image: "/ti.png" },
-  { label: "Food", image: "/foodi.png" },
-];
+ 
 
 const platformItems = [
   { label: "Audit", href: "/platform/audit", image: "/chain.png" },
@@ -79,11 +74,11 @@ export default function Navbar() {
       return complianceItems.some(compliance => pathname === compliance.href);
     }
     
-    if (item.label === "Industries") {
-      return industriesItems.some(industry => 
-        pathname === `/industries/${industry.label.toLowerCase()}`
-      );
-    }
+    // if (item.label === "Industries") {
+    //   return industriesItems.some(industry => 
+    //     pathname === `/industries/${industry.label.toLowerCase()}`
+    //   );
+    // }
     if (item.label === "Regulations") {
       return RegulationsItems.some(Regulations => 
         pathname === `/Regulations/${Regulations.label.toLowerCase()}`
@@ -108,7 +103,6 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" prefetch>
           <Image 
-            // src="/logoScan.png" 
             src="/logoanother.png" 
             alt="CarbonScan.ai" 
             width={120} 
@@ -167,7 +161,7 @@ export default function Navbar() {
                   <div className="absolute top-full left-0 mt-1 bg-[#1A3A3A] rounded-lg shadow-lg p-6 z-50">
                     
                     {/* Industries Dropdown */}
-                    {item.label === "Industries" && (
+                    {/* {item.label === "Industries" && (
                       <div className="flex flex-col gap-3 w-64 text-[#ffffff]">
                         {industriesItems.map(industry => {
                           const industryHref = `/industries/${industry.label.toLowerCase()}`;
@@ -196,7 +190,7 @@ export default function Navbar() {
                           );
                         })}
                       </div>
-                    )}
+                    )} */}
 
                     {/* Platform Dropdown */}
                     {item.label === "Platform" && (
@@ -454,7 +448,7 @@ export default function Navbar() {
                     {/* Mobile Dropdown Content */}
                     {activeMobileDropdown === item.label && (
                       <div className="ml-4 mt-2 space-y-2">
-                        {item.label === "Industries" && industriesItems.map(industry => {
+                        {/* {item.label === "Industries" && industriesItems.map(industry => {
                           const industryHref = `/industries/${industry.label.toLowerCase()}`;
                           const isIndustryActive = pathname === industryHref;
                           
@@ -480,7 +474,7 @@ export default function Navbar() {
                               {industry.label}
                             </Link>
                           );
-                        })}
+                        })} */}
                         
                         {item.label === "Platform" && platformItems.map(platform => {
                           const isPlatformActive = pathname === platform.href;
