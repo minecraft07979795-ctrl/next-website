@@ -9,25 +9,25 @@ const team = [
   {
     name: "Shigeo Taniuichi",
     role: "Co-Founder & Chief Executive Officer",
-    image: "/team1.jpg", // put in /public
+    image: "/amico.png", // put in /public
     linkedin: "#",
   },
   {
     name: "Yuya Kuratomi",
     role: "Founder",
-    image: "/team2.jpg",
+    image: "/amico.png",
     linkedin: "#",
   },
   {
     name: "Ben Richardson",
     role: "Co-Founder & Chief Sustainability Officer",
-    image: "/team3.jpg",
+    image: "/amico.png",
     linkedin: "#",
   },
   {
     name: "George Wade",
     role: "Co-Founder & Chief Commercial Officer",
-    image: "/team4.jpg",
+    image: "/amico.png",
     linkedin: "#",
   },
 ];

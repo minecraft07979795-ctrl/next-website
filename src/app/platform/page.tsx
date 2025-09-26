@@ -4,18 +4,7 @@
 
  
 import React from "react";
-// import PlatformHero from "../components/PlatformHero";
-// import ProductFeatures from "../components/ProductFeature";
-
-// export default function PlatformPage() {
-//   return (
-//     <main>
-//       <PlatformHero />
-//       <ProductFeatures />
  
-//     </main>
-//   );
-// }
  
 
 
@@ -28,15 +17,15 @@ import Link from "next/link";
 export default function PlatformPage() {
   const regulationsTop = [
     { image: "/carbonfootprint.png", title: "carbonfootprint", link: "/platform/corporateCarbon" },
-    { image: "/productcarbonfootprnit.png", title: "productcarbonfootprnit", link: "/Regulations/BURSA" },
+    { image: "/productcarbonfootprnit.png", title: "productcarbonfootprnit", link: "/platform/lca" },
     { image: "/esgdisclosure.png", title: "esgdisclosure", link: "/platform/esg&carbonreporting" },
-  ];
+  ]; 
 
   const regulationsBottom = [
     { image: "/carboncapturingunit.png", title: "carboncapturingunit", link: "/platform/carboncapturingunit" },
     // { image: "/mspocard.png", title: "MSPO", link: "/regulations/mspo" },
     { image: "/carboncredit.png", title: "carboncredit", link: "/platform/carbonCredit" },
-    { image: "/carbonTraining.png", title: "carbonTraining", link: "/Regulations/GHG" },
+    { image: "/carbonTraining.png", title: "carbonTraining", link: "/education" },
     { image: "/energyAudits.png", title: "energyAudits", link: "/platform/audit" },
     {
       image: "/compliance.png",
@@ -63,7 +52,7 @@ export default function PlatformPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-[80vh] bg-white">
       <div className="max-w-7xl mx-auto px-4 py-10">
         {/* Regulations Header */}
         <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">

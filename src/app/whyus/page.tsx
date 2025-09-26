@@ -1,7 +1,7 @@
 "use client"
 
 import AutoReport from "./components/AutoReport"
-import ContactPage from "./components/ContactPage"
+// import ContactPage from "./components/ContactPage"
 import ERP from "./components/ERP"
 import InsightAI from "./components/InsightAI"
 import OneView from "./components/OneView"
@@ -22,7 +22,7 @@ export default function WhyUs(){
             <ERP/>
             <AutoReport/>
             <Resource/>
-            <ContactPage/>
+            {/* <ContactPage/> */}
         </div>
     )
 }

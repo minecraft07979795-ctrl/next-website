@@ -7,8 +7,8 @@ export default function LearningPage() {
     const { scrollToContact } = useContact();
   
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 py-12 bg-white">
-      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <div className="min-h-[90vh] flex items-center justify-center px-6 py-12 bg-white">
+      <div className="max-w-8xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         
         {/* Left Side - Text */}
         <div>
@@ -18,7 +18,7 @@ export default function LearningPage() {
             Through Learning
           </h1>
 
-          <p className="mt-4 text-[#1A3A3A] text-lg text-[24px] font-semibold">
+          <p className="mt-4 text-[#1A3A3A] text-lg text-[24px] font-semibold max-w-[107%]">
             Compliance and carbon training designed for organizations and
             individuals to build future-ready skills.
           </p>
@@ -26,7 +26,7 @@ export default function LearningPage() {
           <button
             // onClick={() => alert("✅ Expert will contact you soon!")}
             onClick={scrollToContact}
-            className="mt-6 inline-block rounded-full bg-green-500 px-6 py-3 text-white font-medium shadow-md hover:bg-green-600 transition"
+            className="mt-6 inline-block rounded-full bg-[#8DD95B] font-bold text-[18px] px-6 py-3 text-white  shadow-md hover:bg-[#8dd95bbf] transition"
           >
             
             Speak to an expert 

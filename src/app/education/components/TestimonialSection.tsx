@@ -7,7 +7,7 @@ import { Star } from 'lucide-react';
 export default function TestimonialSection(){
   return (
     <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
-      <div className="w-full mx-auto">
+      <div className="max-w-[1110px] mx-auto">
         {/* Container with background and border */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -16,7 +16,7 @@ export default function TestimonialSection(){
           className="bg-white border-gray-200 px-8 py-12 md:px-16 md:py-16 text-center relative"
         >
           {/* Top border accent */}
-          <div className="absolute top-0 left-8 right-8 h-0.5 bg-gray-200"></div>
+          <div className="absolute top-0 left-8 right-8 h-0.5 bg-[#1A3A3A]"></div>
           
           {/* Stars Rating */}
           <motion.div
@@ -37,7 +37,7 @@ export default function TestimonialSection(){
                 }}
               >
                 <Star 
-                  className="w-8 h-8 fill-green-400 text-green-400"
+                  className="w-8 h-8 fill-[#8DD95B] text-[#8DD95B]"
                 />
               </motion.div>
             ))}
@@ -48,7 +48,7 @@ export default function TestimonialSection(){
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-xl md:text-2xl lg:text-3xl font-medium text-[#1A3A3A] leading-relaxed mb-8 italic"
+            className="text-xl md:text-[24px] lg:text-3xl font-normal text-[#1A3A3A] leading-relaxed mb-8 italic"
           >
             &quot;SmartCarbon&apos;s Climate Reality check presentation was superb! It raised all the right challenges but in a way that was a lot more accessible than I&apos;ve seen elsewhere.&quot;
           </motion.blockquote>
@@ -69,7 +69,7 @@ export default function TestimonialSection(){
           </motion.div>
 
           {/* Bottom border accent */}
-          <div className="absolute bottom-0 left-8 right-8 h-0.5 bg-gray-200"></div>
+          <div className="absolute bottom-0 left-8 right-8 h-0.5 bg-[#1A3A3A]"></div>
 
           {/* Decorative dot */}
           {/* <motion.div

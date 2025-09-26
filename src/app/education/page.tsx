@@ -12,9 +12,9 @@ export default function Education(){
     return (
         <div>
             <LearningPage/>
-            <CoursesPage/>
             <ComplianceTrainingSection/>
             <TestimonialSection/>
+            <CoursesPage/>
             <ResourcesSection/>
             {/* <ContactPage/> */}
         </div>

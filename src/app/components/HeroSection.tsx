@@ -55,7 +55,7 @@ export default function HeroSection() {
       <div className="flex items-center space-x-1 ">
         <div onClick={scrollToContact}>
         <a
-          href="#"
+          // href="#"
           className="text-sm text-[14px] underline flex items-center hover:text-[#A3D86D]"
         >
           Subscribe Today

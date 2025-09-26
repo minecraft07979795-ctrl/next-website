@@ -8,39 +8,41 @@ import { usePathname } from "next/navigation";
 
 
 const navItems = [
-  { label: "Platform", hasDropdown: true },
+  // { label: "Platform", hasDropdown: true },
+  { label: "Platform", href: "/platform" },
   { label: "Regulations", href: "/Regulations" },
   { label: "Why us", href: "/whyus" },
-  { label: "Resources", hasDropdown: true },
+  // { label: "Resources", hasDropdown: true },
+  { label: "Resources", href: "/Resources" },
   { label: "Company",  href: "/Company" },
   { label: "Education",  href: "/education" },
 ];
 
- 
+  
 
 const platformItems = [
-  { label: "Audit", href: "/platform/audit", image: "/chain.png" },
-  { label: "ESG & Carbon Reporting", href: "/platform/esg&carbonreporting", image: "/chain.png" },
-  { label: "Compliance", href: "/platform/compliance", image: "/chain.png" },
-  { label: "LCA", href: "/platform/lca", image: "/chain.png" },
-  { label: "Corporate Carbon FootPrint", href: "/platform/corporateCarbon", image: "/chain.png" },
-  { label: "Carbon Credit", href: "/platform/carbonCredit", image: "/chain.png" },
-  { label: "Carbon Capturing Unit", href: "/platform/carboncapturingunit", image: "/chain.png" },
+  { label: "Audit", href: "/platform/audit", image: "/amico.png" },
+  { label: "ESG & Carbon Reporting", href: "/platform/esg&carbonreporting", image: "/amico.png" },
+  { label: "Compliance", href: "/platform/compliance", image: "/amico.png" },
+  { label: "LCA", href: "/platform/lca", image: "/amico.png" },
+  { label: "Corporate Carbon FootPrint", href: "/platform/corporateCarbon", image: "/amico.png" },
+  { label: "Carbon Credit", href: "/platform/carbonCredit", image: "/amico.png" },
+  { label: "Carbon Capturing Unit", href: "/platform/carboncapturingunit", image: "/amico.png" },
 ];
 
 const complianceItems = [
-  {label: "CBAM-Carbon Border Adjustment Mechanism" , href: "/compliance/cbam" ,  image: "/cbam_icon.png" },
-  {label: "BRSR-Business Responsibility and Sustainability Reporting" , href: "/compliance/brsr" , image: "/brsr_icon.png" },
-  {label: "EUDR-European Union Deforestation Regulation" , href: "/compliance/eudr" , image: "/eudr_icon.png" }
+  {label: "CBAM-Carbon Border Adjustment Mechanism" , href: "/compliance/cbam" ,  image: "/amico.png" },
+  {label: "BRSR-Business Responsibility and Sustainability Reporting" , href: "/compliance/brsr" , image: "/amico.png" },
+  {label: "EUDR-European Union Deforestation Regulation" , href: "/compliance/eudr" , image: "/amico.png" }
 ]
 
 const RegulationsItems = [
-  {label:"Regulations"  ,href:"/Regulations", image:"/chain.png"},
+  {label:"Regulations"  ,href:"/Regulations", image:"/amico.png"},
 ]
 
 const resourcesItems = [
-  {label:"News letter" , href:"/resources/newsletter",image:"/news.png"},
-  {label:"Blogs" , href:"/resources/blogs",image:"/e.png"},
+  {label:"News letter" , href:"/resources/newsletter",image:"/amico.png"},
+  {label:"Blogs" , href:"/resources/blogs",image:"/amico.png"},
 ]
 
 export default function Navbar() {
@@ -103,16 +105,27 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" prefetch>
           <Image 
-            src="/logoanother.png" 
+            // src="/logoanother.png" 
+            src="/logo.png" 
             alt="CarbonScan.ai" 
-            width={120} 
-            height={50}
-            className="sm:w-[216px] sm:h-[85px] absolute left-[89px] bottom-[1px] ml-7"
+            width={30} 
+            height={20}
+            className="sm:w-[50px] sm:h-[50px] absolute left-[80px] bottom-[20px] ml-7"
           />
+          {/* Text */}
+        <div className="flex flex-col ml-5">
+          <span className="text-white font-bold text-2xl leading-tight">
+            CarbonScan.ai
+          </span>
+          <span className="text-white text-sm">
+            powered by Eddie group
+          </span>
+        </div>
+
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden ml-11 lg:flex gap-5 text-[#ffffff] font-medium">
+        <div className="hidden ml-11 lg:flex gap-5 text-[#ffffff] font-normal">
           {navItems.map((item) => {
             const isActive = isActiveNavItem(item);
             
@@ -205,7 +218,7 @@ export default function Navbar() {
                               prefetch={true} 
                               className={`flex items-center gap-2 p-3 rounded-lg text-sm transition-colors ${
                                 isPlatformActive 
-                                  ? 'bg-[#1A3A3A] text-[#ffff] font-medium' 
+                                  ? 'bg-[#1A3A3A] text-[#ffff] font-normal' 
                                   : 'text-[#ffff] hover:bg-[#1A3A3A]'
                               }`}
                             >
@@ -278,7 +291,7 @@ export default function Navbar() {
                               prefetch={true} 
                               className={`flex items-center gap-2 p-3 rounded-lg text-sm transition-colors ${
                                 isComplianceActive 
-                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-medium' 
+                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-normal' 
                                   : 'text-[#ffffff] hover:bg-[#1A3A3A]'
                               }`}
                             >
@@ -309,7 +322,7 @@ export default function Navbar() {
                               prefetch={true} 
                               className={`flex items-center gap-2 p-3 rounded-lg text-sm transition-colors ${
                                 isWhyReputActive 
-                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-medium' 
+                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-normal' 
                                   : 'text-[#ffffff] hover:bg-[#1A3A3A]'
                               }`}
                             >
@@ -340,7 +353,7 @@ export default function Navbar() {
                               prefetch={true} 
                               className={`flex items-center gap-2 p-3 rounded-lg text-sm transition-colors ${
                                 isResourceActive 
-                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-medium' 
+                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-normal' 
                                   : 'text-[#ffffff] hover:bg-[#1A3A3A]'
                               }`}
                             >
@@ -373,14 +386,14 @@ export default function Navbar() {
           <Image  onClick={scrollToContact} src="/button.png" width={25} height={5} alt="gu"/>
         <button 
           onClick={scrollToContact}
-          className="hidden lg:block  bg-[#1A3A3A] px-1 py-2 rounded-lg font-medium text-sm   transition-colors   text-[#ffffff]"
+          className="hidden lg:block  bg-[#1A3A3A] px-1 py-2 rounded-lg font-normal text-sm   transition-colors   text-[#ffffff]"
         >
           Contact
         </button>
 
         <button 
           onClick={scrollToContact}
-          className="hidden lg:block bg-[#1A3A3A] px-6 py-2 rounded-full font-semibold text-sm hover:bg-[#1B5B3B] transition-colors border border-[#6EED88] text-[#6EED88]"
+          className="hidden lg:block bg-[#1A3A3A] px-6 py-2 rounded-full font-medium text-sm hover:bg-[#1B5B3B] transition-colors border border-[#6EED88] text-[#6EED88]"
         >
           Book Demo
         </button>
@@ -435,7 +448,7 @@ export default function Navbar() {
                   <div>
                     <button
                       onClick={() => toggleMobileDropdown(item.label)}
-                      className={`flex justify-between items-center w-full text-left font-semibold py-3 border-b border-gray-100 transition-colors ${
+                      className={`flex justify-between items-center w-full text-left font-normal py-3 border-b border-gray-100 transition-colors ${
                         isActive ? 'text-[#fffffff] bg-[#1A3A3A] px-2 -mx-2 rounded' : 'text-[#fffffff]'
                       }`}
                     >
@@ -486,7 +499,7 @@ export default function Navbar() {
                               prefetch={true}
                               className={`flex items-center gap-3 p-3 rounded-lg text-sm transition-colors ${
                                 isPlatformActive 
-                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-semibold' 
+                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-normal' 
                                   : 'text-[#ffffff] hover:bg-[#1A3A3A]'
                               }`}
                               onClick={toggleMobileMenu}
@@ -544,7 +557,7 @@ export default function Navbar() {
                               prefetch={true}
                               className={`flex items-center gap-3 p-3 rounded-lg text-sm transition-colors ${
                                 isComplianceActive 
-                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-semibold' 
+                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-normal' 
                                   : 'text-[#ffffff] hover:bg-[#1A3A3A]'
                               }`}
                               onClick={toggleMobileMenu}
@@ -600,7 +613,7 @@ export default function Navbar() {
                               prefetch={true}
                               className={`flex items-center gap-3 p-3 rounded-lg text-sm transition-colors ${
                                 isResourceActive 
-                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-semibold' 
+                                  ? 'bg-[#1A3A3A] text-[#ffffff] font-normal' 
                                   : 'text-[#ffffff] hover:bg-[#1A3A3A]'
                               }`}
                               onClick={toggleMobileMenu}
@@ -624,7 +637,7 @@ export default function Navbar() {
                   <Link 
                     href={item.href!} 
                     prefetch={true} 
-                    className={`block font-semibold py-3 border-b border-gray-100 transition-colors ${
+                    className={`block font-normal py-3 border-b border-gray-100 transition-colors ${
                       isActive 
                         ? 'text-[#ffffff] bg-[#1A3A3A] px-2 -mx-2 rounded' 
                         : 'text-[#ffffff]'
@@ -644,7 +657,7 @@ export default function Navbar() {
               scrollToContact();
               toggleMobileMenu();
             }}
-            className="w-full bg-[#1A3A3A] px-6 py-3 rounded-lg font-semibold text-sm hover:bg-[#1A5A3A] transition-colors mt-6 border border-[#6EED88] text-[#6EED88]"
+            className="w-full bg-[#1A3A3A] px-6 py-3 rounded-lg font-medium text-sm hover:bg-[#1A5A3A] transition-colors mt-6 border border-[#6EED88] text-[#6EED88]"
           >
             Book Demo
           </button>
