@@ -81,7 +81,7 @@ export default function CarbonScanIndustriesScreen(){
           {industries.map((industry, index) => (
             <motion.div
               key={industry.id}
-              variants={cardVariants}
+              // variants={cardVariants}
               whileHover={{ 
                 y: -8,
                 scale: 1.02,
@@ -116,7 +116,7 @@ export default function CarbonScanIndustriesScreen(){
 
         {/* Description Text */}
         <motion.div
-          variants={textVariants}
+          // variants={textVariants}
           initial="hidden"
           animate="visible"
           className="max-w-6xl mx-auto"
