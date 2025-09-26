@@ -254,9 +254,11 @@ export default function ESGComplianceApp(){
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Company Name</label>
               <input
+                id="companyName"
                 type="text"
                 value={formData.companyName}
                 disabled
+                 placeholder="Company Name"
                 className="w-full px-4 py-2 border border-gray-200 rounded-lg bg-gray-50"
               />
             </div>
