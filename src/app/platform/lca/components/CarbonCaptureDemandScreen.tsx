@@ -83,14 +83,30 @@ export default  function CarbonCaptureDemandScreen(){
     }
   };
 
-  const CircularMeter = ({ metric, index }) => {
+  type Metric = {
+  id: number;
+  title: string;
+  value: string;
+  unit: string;
+  percentage: number;
+  description: string;
+  color: string;
+};
+
+type CircularMeterProps = {
+  metric: Metric;
+  index: number;
+};
+
+
+  const CircularMeter: React.FC<CircularMeterProps> = ({ metric, index }) => {
     const circumference = 2 * Math.PI * 45;
     const strokeDasharray = circumference;
     const strokeDashoffset = circumference - (metric.percentage / 100) * circumference;
 
     return (
       <motion.div
-        variants={meterVariants}
+        // variants={meterVariants}
         className="flex flex-col items-center text-center cursor-pointer group"
       >
         {/* Circular Progress Meter */}
@@ -185,7 +201,7 @@ export default  function CarbonCaptureDemandScreen(){
           className="max-w-6xl mx-auto mb-20 space-y-6"
         >
           <motion.p 
-            variants={textVariants}
+            // variants={textVariants}
             className="text-gray-700 text-base lg:text-lg leading-relaxed text-center"
           >
             Traditional carbon capture systems often focus only on short-term storage, offering limited long-term benefits. Carbon Scan.ai 
@@ -194,7 +210,7 @@ export default  function CarbonCaptureDemandScreen(){
           </motion.p>
 
           <motion.p 
-            variants={textVariants}
+            // variants={textVariants}
             className="text-gray-700 text-base lg:text-lg leading-relaxed text-center"
           >
             By embedding CO₂ directly into building materials, companies can reduce emissions, lower reliance on traditional cement 
@@ -204,7 +220,7 @@ export default  function CarbonCaptureDemandScreen(){
           </motion.p>
 
           <motion.p 
-            variants={textVariants}
+            // variants={textVariants}
             className="text-gray-700 text-base lg:text-lg leading-relaxed text-center"
           >
             A growing number of Malaysian and international firms are exploring CCU with Carbon Scan.ai, as it offers long-term storage, 
