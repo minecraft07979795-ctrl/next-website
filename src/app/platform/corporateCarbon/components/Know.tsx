@@ -57,14 +57,14 @@ export default  function Know(){
 //   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
+    <div className="min-h-screen bg-[#E5E7EB]">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center"
+          className="grid lg:grid-cols-2 gap-12 lg:gap-56 items-center"
         >
           
           {/* Left Content */}
@@ -74,7 +74,7 @@ export default  function Know(){
             <motion.div 
             // variants={itemVariants}
             >
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight mb-6">
+              <h1 className="text-4xl lg:text-5xl xl:text-[48px] font-bold text-[#1A3A3A]  leading-tight mb-6">
                 Know Where to Act
               </h1>
             </motion.div>
@@ -87,14 +87,14 @@ export default  function Know(){
                 //   variants={itemVariants}
                   className="flex items-start space-x-4"
                 >
-                  <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                  <div className="flex-shrink-0 w-6 h-6 bg-[#8DD95B] rounded-full flex items-center justify-center mt-1">
                     <Check className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                    <h3 className="text-[20px] font-semibold text-[#1A3A3A] mb-2">
                       {feature.title}
                     </h3>
-                    <p className="text-gray-600 text-lg leading-relaxed">
+                    <p className="text-gray-600 text-[16px] leading-relaxed">
                       {feature.description}
                     </p>
                   </div>
@@ -111,10 +111,11 @@ export default  function Know(){
             <div className="relative  overflow-hidden">
               <Image
                 src="/emission.png"
+                // src="/delm.png"
                 alt="Emissions Dashboard"
-                width={600}
-                height={400}
-                className="w-full h-auto object-cover"
+                width={400}
+                height={300}
+                className="w-[80%] h-auto object-cover"
                 priority
               />
               

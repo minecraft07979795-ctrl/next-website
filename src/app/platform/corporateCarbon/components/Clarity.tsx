@@ -82,8 +82,8 @@ export default function Clarity (){
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-green-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
+    <div className="min-h-screen bg-[#E5E7EB]">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         
         <motion.div
           variants={containerVariants}
@@ -97,7 +97,7 @@ export default function Clarity (){
             // variants={imageVariants}
             className="relative order-2 lg:order-1"
           >
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-white">
+            <div className="relative overflow-hidden  ">
               <Image
                 src="/clarity.png"
                 alt="Business Travel Carbon Calculator"
@@ -119,7 +119,7 @@ export default function Clarity (){
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.8, duration: 0.6 }}
-              className="absolute -top-4 -right-4 w-8 h-8 bg-green-500 rounded-full shadow-lg"
+              className="absolute -top-4 -right-4 w-8 h-8 bg-[#8DD95B] rounded-full shadow-lg"
             ></motion.div>
             
             <motion.div
@@ -137,7 +137,7 @@ export default function Clarity (){
             <motion.div 
             // variants={itemVariants}
             >
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight mb-6">
+              <h1 className="text-3xl lg:text-4xl xl:text-[48px] font-bold text-[#1A3A3A] leading-tight mb-6">
                 Clarity in Every Number
               </h1>
             </motion.div>
@@ -150,14 +150,14 @@ export default function Clarity (){
                 //   variants={itemVariants}
                   className="flex items-start space-x-4"
                 >
-                  <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                  <div className="flex-shrink-0 w-6 h-6 bg-[#8DD95B] rounded-full flex items-center justify-center mt-1">
                     <Check className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                    <h3 className="text-[20px] font-semibold text-gray-900 mb-2">
                       {feature.title}
                     </h3>
-                    <p className="text-gray-600 text-lg leading-relaxed">
+                    <p className="text-gray-600 text-[16px] font-normal text-lg leading-relaxed">
                       {feature.description}
                     </p>
                   </div>
@@ -172,7 +172,7 @@ export default function Clarity (){
                 variants={buttonVariants}
                 whileHover="hover"
                 whileTap="tap"
-                className="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="bg-gradient-to-r from-[#8DD95B] to-[#8DD95B] text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
                 Schedule a call
               </motion.button>

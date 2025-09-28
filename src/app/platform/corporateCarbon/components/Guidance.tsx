@@ -56,7 +56,7 @@ export default  function Guidance(){
 //   };
 
   return (
-    <div className="h-[75vh] bg-[#1A3A3A]">
+    <div className="h-[85vh] bg-[#1A3A3A]">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         
         <motion.div
@@ -73,7 +73,7 @@ export default  function Guidance(){
             <motion.div 
             // variants={itemVariants}
             >
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-6">
+              <h1 className="text-[38px] lg:text-[38px] xl:text-[48px] font-bold text-white leading-tight mb-6">
                 Guidance You Can Count On
               </h1>
             </motion.div>
@@ -90,10 +90,10 @@ export default  function Guidance(){
                     <Check className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-[20px] font-semibold text-white mb-2">
+                    <h3 className="text-[20px] font-semibold  text-white mb-2">
                       {feature.title}
                     </h3>
-                    <p className="text-white text-lg leading-relaxed">
+                    <p className="text-white text-lg leading-relaxed text-[16px] font-normal">
                       {feature.description}
                     </p>
                   </div>

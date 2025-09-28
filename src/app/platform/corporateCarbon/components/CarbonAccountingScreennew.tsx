@@ -54,7 +54,7 @@ export default function CarbonAccountingScreen(){
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         
         {/* Navigation Tabs */}
         <div className="flex justify-center mb-12">
@@ -105,10 +105,10 @@ export default function CarbonAccountingScreen(){
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2, duration: 0.6 }}
               >
-                <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-800 leading-tight mb-6">
+                <h1 className="text-4xl lg:text-5xl xl:text-[48px] font-bold text-[#1A3A3A] leading-tight mb-6">
                   {currentTab.heading}
                 </h1>
-                <p className="text-lg lg:text-xl text-gray-600 leading-relaxed mb-8">
+                <p className="text-lg lg:text-[20px] text-[#1A3A3A] font-medium leading-relaxed mb-8">
                   {currentTab.description}
                 </p>
               </motion.div>
@@ -128,10 +128,10 @@ export default function CarbonAccountingScreen(){
                     transition={{ delay: 0.6 + index * 0.1, duration: 0.5 }}
                     className="flex items-start space-x-4"
                   >
-                    <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                    <div className="flex-shrink-0 w-6 h-6 bg-[#8DD95B] rounded-full flex items-center justify-center mt-1">
                       <Check className="w-4 h-4 text-white" />
                     </div>
-                    <p className="text-gray-700 text-lg leading-relaxed">{feature}</p>
+                    <p className="text-[#1A3A3A] text-[18px] font-normal text-lg leading-relaxed">{feature}</p>
                   </motion.div>
                 ))}
               </motion.div>
@@ -144,7 +144,7 @@ export default function CarbonAccountingScreen(){
               >
                 <motion.button
                   onClick={scrollToContact}
-                  className="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center space-x-3 group"
+                  className="bg-gradient-to-r from-[#8DD95B] to-[#8dd95bc9] text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center space-x-3 group"
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
                 >

@@ -83,7 +83,7 @@ export default function AccurateResultsScreen (){
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-green-50">
+    <div className="min-h-screen bg-[#E5E7EB]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         
         <motion.div
@@ -138,7 +138,7 @@ export default function AccurateResultsScreen (){
             <motion.div 
             // variants={itemVariants}
             >
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight mb-6">
+              <h1 className="text-3xl lg:text-4xl xl:text-[48px] font-bold text-[#1A3A3A] leading-tight mb-6">
                 Accurate Results You Can Rely On
               </h1>
             </motion.div>
@@ -151,11 +151,11 @@ export default function AccurateResultsScreen (){
                 //   variants={itemVariants}
                   className="flex items-start space-x-4"
                 >
-                  <div className="flex-shrink-0 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1">
+                  <div className="flex-shrink-0 w-6 h-6 bg-[#8DD95B] rounded-full flex items-center justify-center mt-1">
                     <Check className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                    <h3 className="text-xl font-semibold text-[#1A3A3A] mb-2">
                       {feature.title}
                     </h3>
                     <p className="text-gray-600 text-lg leading-relaxed">
@@ -173,7 +173,7 @@ export default function AccurateResultsScreen (){
                 onClick={scrollToContact}
                 whileHover="hover"
                 whileTap="tap"
-                className="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="bg-gradient-to-r from-[#8DD95B] to-[#8dd95bd5] text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
                 Schedule a call
               </motion.button>

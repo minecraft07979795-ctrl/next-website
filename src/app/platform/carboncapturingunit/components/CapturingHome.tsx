@@ -26,10 +26,10 @@ export default function CapturingHome() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-3xl px-6 mr-110 text-start md:text-left">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
+      <div className="relative z-10 max-w-5xl px-6 mr-110 text-start md:text-left">
+        <h1 className="text-3xl sm:text-4xl md:text-[60px] font-bold text-white leading-tight">
           Carbon Capture, Utilization & <br />
-          <span className="text-green-400">Storage (CCUS) </span>
+          <span className="text-3xl sm:text-4xl md:text-[60px]" >Storage (CCUS) </span>
         </h1>
         <p className="mt-4 text-lg text-gray-200">
           Carbon Scan.ai helps you measure, track, and report CCUS performance with accuracy—ensuring compliance and driving sustainable impact.
