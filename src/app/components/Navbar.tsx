@@ -271,7 +271,8 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden ml-11 lg:flex gap-5 text-[#ffffff] font-normal">
+
+        {/* <div className="hidden ml-11 lg:flex gap-5 text-[#ffffff] font-normal">
           {navItems.map((item) => {
             const isActive = isActiveNavItem(item);
             
@@ -287,14 +288,44 @@ export default function Navbar() {
                 }`}
               >
                 {item.label}
-                {/* Active indicator for regular links */}
                 {isActive && (
                   <div className="absolute hover:text-[#6EED88] bottom-0 left-0 right-0 h-0.5 bg-[#6EED88] rounded-full"></div>
                 )}
               </Link>
             );
           })}
-        </div>
+        </div> */}
+
+        {/* Desktop Navigation */}
+<div className="hidden ml-11 lg:flex gap-5 text-[#ffffff] font-normal">
+  {navItems.map((item) => {
+    const isActive = isActiveNavItem(item);
+
+    return (
+      <Link
+        key={item.label}
+        href={item.href}
+        prefetch={true}
+        className={`relative py-2 px-1 transition-colors group ${
+          isActive ? "text-white" : "text-white hover:text-white"
+        }`}
+      >
+        {item.label}
+
+        {/* Hover underline */}
+        <span
+          className="absolute left-0 right-0 -bottom-1 h-0.5 bg-[#6EED88] scale-x-0 group-hover:scale-x-100 transition-transform origin-center duration-300"
+        />
+
+        {/* Active underline */}
+        {isActive && (
+          <span className="absolute left-0 right-0 -bottom-1 h-0.5 bg-[#6EED88] rounded-full" />
+        )}
+      </Link>
+    );
+  })}
+</div>
+
 
         {/* Desktop Contact Button */}
         <div className="flex gap-4">
