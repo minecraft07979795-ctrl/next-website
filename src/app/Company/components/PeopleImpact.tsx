@@ -46,7 +46,7 @@ export default function PeopleImpact() {
 
             <div className="mt-10 grid grid-cols-2 gap-x-10 gap-y-8">
               <div>
-                <div className="text-3xl font-bold text-green-700">
+                <div className="text-3xl font-bold text-[#8DD95B]">
                   <CountUp end={150000} separator="," duration={3} />+
                 </div>
                 <p className="text-gray-600 text-sm mt-1">
@@ -56,8 +56,8 @@ export default function PeopleImpact() {
               </div>
 
               <div>
-                <div className="text-3xl font-bold text-green-700">
-                  <CountUp end={25} duration={2} />+
+                <div className="text-3xl font-bold text-[#8DD95B]">
+                  <CountUp end={5} duration={2} />+
                 </div>
                 <p className="text-gray-600 text-sm mt-1">
                   The number of countries our customers operate in.
@@ -65,8 +65,8 @@ export default function PeopleImpact() {
               </div>
 
               <div>
-                <div className="text-3xl font-bold text-green-700">
-                  <CountUp end={18} duration={2.5} />
+                <div className="text-3xl font-bold text-[#8DD95B]">
+                  <CountUp end={3} duration={2.5} />
                 </div>
                 <p className="text-gray-600 text-sm mt-1">
                   Different nationalities and countries in our team.
@@ -74,8 +74,8 @@ export default function PeopleImpact() {
               </div>
 
               <div>
-                <div className="text-3xl font-bold text-green-700">
-                  <CountUp end={7} duration={2.5} />
+                <div className="text-3xl font-bold text-[#8DD95B]">
+                  <CountUp end={2} duration={2.5} />
                 </div>
                 <p className="text-gray-600 text-sm mt-1">
                   The number of countries our team works across.

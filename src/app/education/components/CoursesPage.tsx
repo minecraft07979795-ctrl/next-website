@@ -33,9 +33,9 @@ Participants will leave equipped to engage employees and decision-makers in cons
     },
     {
       id: 2,
-      subtitle: "📊  Carbon Footprinting & GHG Reporting Essentials",
+      subtitle: "🌿  Carbon Footprinting & GHG Reporting Essentials",
       duration: "One-day Course",
-      icon: "📊",
+      icon: "🌿",
       description: `This practical course introduces participants to the fundamentals of carbon footprinting and greenhouse gas 
 (GHG) accounting in line with the GHG Protocol and SECR requirements. By the end of the session, learners will be able 
 to identify, measure, and report organisational GHG emissions, and create a basic carbon footprint report aligned with 
@@ -79,7 +79,7 @@ reduction strategies, set realistic targets, and integrate carbon management int
                        {course.title}
               </h2>
               <br/>
-              <h3 className=" inline-flex items-center justify-center rounded-full bg-green-500 px-6 py-2 text-white font-medium hover:bg-green-600 transition">
+              <h3 className=" inline-flex items-center justify-center rounded-full bg-[#8DD95B] px-6 py-2 text-white font-medium hover:bg-[#8dd95b9f] transition">
                 {course.duration}
               </h3>
              {/* <span>{course.icon}</span> */}
@@ -118,7 +118,7 @@ reduction strategies, set realistic targets, and integrate carbon management int
                 whileTap={{ scale: 0.95 }}
                 // onClick={() => router.push(`/courses/${course.id}`)}
                 onClick={scrollToContact}
-                className="mt-6 inline-flex items-center justify-center rounded-full bg-green-500 px-6 py-2 text-white font-medium hover:bg-green-600 transition"
+                className="mt-6 inline-flex items-center justify-center rounded-full bg-[#8DD95B] px-6 py-2 text-white font-medium hover:bg-[#8dd95bb9] transition"
               >
                 Learn More →
               </motion.button>
@@ -137,7 +137,7 @@ reduction strategies, set realistic targets, and integrate carbon management int
         <motion.button
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}
-          className="mt-6 px-10 py-3 rounded-full bg-green-900 text-white font-medium shadow-lg hover:bg-green-800 transition"
+          className="mt-6 px-10 py-3 rounded-full bg-[#8DD95B] text-white font-medium shadow-lg hover:bg-[#8dd95bbf] transition"
           onClick={() => alert("✅ Climate Reality Check Workshop Clicked!")}
         >
           Climate Reality Check

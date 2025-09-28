@@ -7,28 +7,28 @@ import { useContact } from "../../components/ContactContext";
 
 const team = [
   {
-    name: "Shigeo Taniuichi",
-    role: "Co-Founder & Chief Executive Officer",
-    image: "/amico.png", // put in /public
-    linkedin: "#",
+    name: "NORHAIDI NOR AZMAN",
+    role: "Chief Executive Officer at EDDI Group Berhad",
+    image: "/NORHAIDI.png", // put in /public
+    linkedin: "https://www.linkedin.com/in/norhaidi-nor-azman-03722727b/",
   },
   {
-    name: "Yuya Kuratomi",
+    name: "Dr S Sugumaran",
     role: "Founder",
-    image: "/amico.png",
-    linkedin: "#",
+    image: "/ceo.png",
+    linkedin: "https://www.linkedin.com/in/vr1world/",
   },
   {
-    name: "Ben Richardson",
-    role: "Co-Founder & Chief Sustainability Officer",
-    image: "/amico.png",
-    linkedin: "#",
+    name: "Geetha Nadarajan",
+    role: "Director- Analytics",
+    image: "/geet.png",
+    linkedin: "https://www.linkedin.com/in/ngeetha/",
   },
   {
-    name: "George Wade",
-    role: "Co-Founder & Chief Commercial Officer",
-    image: "/amico.png",
-    linkedin: "#",
+    name: "Ahmad Shukri Tajuddin",
+    role: "Chief Executive Officer at Kedah Chief Minister Incorporated",
+    image: "/Shukridem.png",
+    linkedin: "https://www.linkedin.com/in/ahmad-shukri-tajuddin-8aa23177/",
   },
 ];
 
@@ -51,7 +51,7 @@ export default function ClimateLeadership(){
         <motion.a
           onClick={scrollToContact}
            
-          className="inline-block cursor-pointer mt-6 px-6 py-3 rounded-full bg-green-500 text-white font-medium hover:bg-green-600 transition"
+          className="inline-block cursor-pointer mt-6 px-6 py-3 rounded-full bg-[#8DD95B] text-white font-medium hover:bg-[#8dd95bc0] transition"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >

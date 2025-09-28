@@ -9,10 +9,10 @@ export default function CarbonZeroJourney() {
         {/* Left Side - Text */}
         <div  >
           <h2 className="text-3xl md:text-[60px] font-semibold text-[#1A3A3A] mb-4">
-            Accelerate Your <br /> Carbon Zero Journey
+            Accelerate Your <br /> Carbon Scan Journey
           </h2>
           <p className="text-[#1A3A3A] w-[460px] text-lg text-[20px] font-normal">
-            Leverage <span className="font-semibold text-[#1A3A3A]">Carbon Zero</span> to streamline carbon accounting, ESG disclosures, and compliance with global standards.
+            Leverage <span className="font-semibold text-[#1A3A3A]">Carbon Scan</span> to streamline carbon accounting, ESG disclosures, and compliance with global standards.
           </p>
         </div>
 

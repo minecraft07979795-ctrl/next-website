@@ -12,7 +12,7 @@ export default function CarbonZeroPlatform(){
             {/* Title */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               <span className="text-slate-800">Build a deforestation-free supply chain with </span>
-              <span className="text-green-400">Carbon-Zero.ai</span>
+              <span className="text-[#8DD95B]">Carbon-Zero.ai</span>
             </h1>
 
             {/* Description Paragraphs */}
@@ -32,7 +32,7 @@ export default function CarbonZeroPlatform(){
 
             {/* CTA Button */}
             <div>
-              <button className="bg-green-400 hover:bg-green-500 text-white font-semibold px-8 py-4 rounded-full flex items-center space-x-3 transition-colors duration-200 text-lg">
+              <button className="bg-[#8DD95B] hover:bg-[#8dd95bb8] text-white font-semibold px-8 py-4 rounded-full flex items-center space-x-3 transition-colors duration-200 text-lg">
                 <span>Discover more about the platform</span>
                 <ArrowRight className="w-5 h-5" />
               </button>

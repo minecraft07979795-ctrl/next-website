@@ -81,7 +81,7 @@ export default function TestimonialsSection(){
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-block px-4 py-2 bg-green-100 text-green-600 rounded-full text-sm font-medium mb-6">
+          <div className="inline-block px-4 py-2 bg-green-100 text-[#8DD95B] rounded-full text-sm font-medium mb-6">
             Testimonials
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -166,7 +166,7 @@ export default function TestimonialsSection(){
               onClick={() => goToSlide(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
                 index === currentTestimonial
-                  ? 'bg-green-500 scale-125'
+                  ? 'bg-[#8DD95B] scale-125'
                   : 'bg-gray-300 hover:bg-gray-400'
               }`}
               aria-label={`Go to testimonial ${index + 1}`}

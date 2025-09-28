@@ -25,13 +25,13 @@ export default function CarbonZeroPlatform(){
             climate leadership.
           </p>
         </div>
-        <button onClick={scrollToContact} className="bg-green-700 hover:bg-green-800 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
+        <button onClick={scrollToContact} className="bg-[#8DD95B] hover:bg-[#8dd95bb5] text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
           Learn more
         </button>
       </div>
       
       <div className="flex-1 relative">
-        <div className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div className=" rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
           <Image
             width={600}
             height={400}
@@ -61,13 +61,13 @@ export default function CarbonZeroPlatform(){
             carbon accounting tools, ensuring compliance and transparency.
           </p>
         </div>
-        <button onClick={scrollToContact} className="bg-green-700 hover:bg-green-800 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
+        <button onClick={scrollToContact} className="bg-[#8DD95B] hover:bg-[#8DD95B] text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
           Learn more
         </button>
       </div>
       
       <div className="flex-1 relative">
-        <div className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div className=" overflow-hidden   transition-shadow duration-300">
           <Image
             width={600}
             height={400}
@@ -101,7 +101,7 @@ export default function CarbonZeroPlatform(){
             Dive deep into emissions hotspots with automated dashboards, benchmarking, and scenario analysis to identify key opportunities.
           </p>
         </div>
-        <button onClick={scrollToContact} className="bg-green-700 hover:bg-green-800 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
+        <button onClick={scrollToContact} className="bg-[#8DD95B] hover:bg-[#8DD95B] text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
           Learn more
         </button>
       </div>
@@ -136,13 +136,13 @@ export default function CarbonZeroPlatform(){
             Set science-based targets and design decarbonization strategies tailored to your sector, operations, and long-term goals.
           </p>
         </div>
-        <button onClick={scrollToContact} className="bg-green-700 hover:bg-green-800 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
+        <button onClick={scrollToContact} className="bg-[#8DD95B] hover:bg-[#8DD95B] text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
           Learn more
         </button>
       </div>
       
       <div className="flex-1 relative">
-        <div className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div className=" overflow-hidden   duration-300">
           <Image
             width={600}
             height={400}
@@ -171,13 +171,13 @@ export default function CarbonZeroPlatform(){
             Implement effective carbon reduction initiatives, optimize energy use, and engage suppliers to minimize your value chain footprint.
           </p>
         </div>
-        <button onClick={scrollToContact} className="bg-green-700 hover:bg-green-800 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
+        <button onClick={scrollToContact} className="bg-[#8DD95B] hover:bg-[#8DD95B] text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
           Learn more
         </button>
       </div>
       
       <div className="flex-1 relative">
-        <div className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div className=" overflow-hidden  transition-shadow duration-300">
           <Image
             width={600}
             height={400}
@@ -207,13 +207,13 @@ export default function CarbonZeroPlatform(){
             Monetize your sustainability efforts by generating verified carbon credits and accessing green financing opportunities.
           </p>
         </div>
-        <button onClick={scrollToContact} className="bg-green-700 hover:bg-green-800 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
+        <button onClick={scrollToContact} className="bg-[#8DD95B] hover:bg-[#8DD95B] text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg">
           Learn more
         </button>
       </div>
       
       <div className="flex-1 relative">
-        <div className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div className=" overflow-hidden  duration-300">
           <Image
             width={600}
             height={400}
@@ -221,12 +221,7 @@ export default function CarbonZeroPlatform(){
             alt="Training session with people in a modern office environment, showing workplace sustainability education"
             className="w-full h-80 lg:h-96 object-contain"
           />
-          {/* Certificate overlay */}
-          {/* <div className="absolute top-4 right-4 bg-green-800 text-white p-3 rounded-lg shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
-            <div className="text-xs font-bold">CERTIFICATE</div>
-            <div className="text-xs opacity-90">OF COMPLETION</div>
-            <div className="text-xs mt-1 opacity-80">Climate Training</div>
-          </div> */}
+ 
         </div>
       </div>
     </div>
@@ -256,7 +251,7 @@ export default function CarbonZeroPlatform(){
                   onClick={() => setActiveTab(tab)}
                   className={`px-6 py-3 rounded-full font-medium transition-all duration-300 whitespace-nowrap ${
                     activeTab === tab
-                      ? 'bg-green-500 text-white shadow-lg transform scale-105'
+                      ? 'bg-[#8DD95B] text-white shadow-lg transform scale-105'
                       : 'text-gray-600 hover:text-gray-800 hover:bg-gray-50'
                   }`}
                 >
@@ -280,10 +275,7 @@ export default function CarbonZeroPlatform(){
 
         {/* Bottom CTA */}
         <div className="text-center mt-12">
-          {/* <div className="inline-flex items-center space-x-2 text-green-600 hover:text-green-700 cursor-pointer group transition-colors duration-300">
-            <span className="font-medium">Explore all features</span>
-            <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-          </div> */}
+ 
         </div>
       </div>
     </div>

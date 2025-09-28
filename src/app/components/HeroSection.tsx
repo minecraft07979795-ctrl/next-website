@@ -15,17 +15,7 @@ export default function HeroSection() {
     <div>
 
       <div className="w-full bg-[#1A3A3A] text-white flex items-center justify-start px-27 py-3 border-b-1 border-[#1f4343c4]">
-      {/* <div className="flex items-center space-x-3  border-r-2 border-white">
-        <div className="bg-[#A3D86D] rounded-md p-2 flex items-center    justify-center">
-          <Image
-            src="/leaf.png" // replace with your logo path
-            alt="Carbon Software Logo"
-            width={20}
-            height={20}
-          />
-        </div>
-        <span className="text-sm font-medium text-[14px]">Carbon Software</span>
-      </div> */}
+ 
 
       <div className="flex items-center space-x-3">
   {/* Logo + Text */}
@@ -42,8 +32,6 @@ export default function HeroSection() {
     <span className="text-sm font-medium text-[14px]">Carbon Software</span>
   </div>
 
-  {/* Anything that comes after the line */}
-  {/* <span className="text-sm text-[14px] font-medium text-white">Get Supply Chain Regulatory News 1× Month</span> */}
 </div>
 
       {/* Middle: Message */}
@@ -100,8 +88,8 @@ export default function HeroSection() {
           // src="/homedash1.png" // 👈 replace with your actual image
           src="/gola.png" // 👈 replace with your actual image
           alt="gola"
-          width={110}
-          height={110}
+          width={90}
+          height={90}
           className=""
         />
       </div>
@@ -114,7 +102,7 @@ export default function HeroSection() {
         </span>
 
         {/* Heading */}
-        <h1 className="text-[60px] text-white sm:text-[60px] lg:text-[60px] font-bold leading-tight w-[1280px]">
+        <h1 className="text-[50px] text-white sm:text-[40px] lg:text-[50px] font-bold leading-tight w-[1280px]">
           Smarter Carbon Accounting <br />&
           <span className="text-[#8DD95B]"> Informed Decisions</span>
         </h1>

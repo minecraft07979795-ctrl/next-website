@@ -10,6 +10,7 @@ import LatestResources from "./components/LatestResource";
 import Journey from "./components/Journey";
 import CarbonZeroPlatform from "./components/CarbonZeroPlatform";
 import CarbonMilestonePlatform from "./components/CarbonMilestonePlatform";
+import CarbonMilestonePlatform2 from "./components/CarbonMilestonePlatform2";
 import TestimonialsSection from "./components/Testimonials";
 // import ContactHome from "./components/ContactHome";
  
@@ -23,6 +24,7 @@ export default function Home() {
       <ESGInsights />
       <CarbonSoftware />
       <CarbonMilestonePlatform />
+      <CarbonMilestonePlatform2/>
       <CarbonZeroJourney />
       <ComplianceTracker />
       <CarbonZeroPlatform />

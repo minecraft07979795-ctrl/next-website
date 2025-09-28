@@ -37,7 +37,7 @@ export default function CarbonZero(){
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
           Accelerate Your Path To Net Zero
         </h1>
-        <h2 className="text-3xl md:text-4xl font-bold text-green-500 mt-2">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#8DD95B] mt-2">
           With Carbon Zero
         </h2>
       </div>
@@ -45,7 +45,7 @@ export default function CarbonZero(){
       <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {/* Card 1 */}
         <div className="bg-white rounded-xl shadow p-8 text-center">
-          <p className="text-green-500 text-5xl font-bold">
+          <p className="text-[#8DD95B] text-5xl font-bold">
             {startCount ? <Counter target={90} /> : 0}%
           </p>
           <p className="mt-4 text-lg font-semibold text-gray-800">
@@ -58,7 +58,7 @@ export default function CarbonZero(){
 
         {/* Card 2 */}
         <div className="bg-white rounded-xl shadow p-8 text-center">
-          <p className="text-green-500 text-5xl font-bold">
+          <p className="text-[#8DD95B] text-5xl font-bold">
             {startCount ? <Counter target={150} /> : 0}+
           </p>
           <p className="mt-4 text-lg font-semibold text-gray-800">
@@ -71,7 +71,7 @@ export default function CarbonZero(){
 
         {/* Card 3 */}
         <div className="bg-white rounded-xl shadow p-8 text-center">
-          <p className="text-green-500 text-5xl font-bold">
+          <p className="text-[#8DD95B] text-5xl font-bold">
             {startCount ? <Counter target={25} /> : 0}x
           </p>
           <p className="mt-4 text-lg font-semibold text-gray-800">
@@ -84,7 +84,7 @@ export default function CarbonZero(){
       </div>
 
       <div className="mt-12 text-center">
-        <button className="bg-green-500 text-white px-6 py-3 rounded-full font-medium hover:bg-green-600 transition">
+        <button className="bg-[#8DD95B] text-white px-6 py-3 rounded-full font-medium hover:bg-[#8dd95bc6] transition">
           Request a demo
         </button>
       </div>

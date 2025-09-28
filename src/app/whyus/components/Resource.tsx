@@ -27,6 +27,14 @@ const articles = [
     image: "/cniie.png",
     link: "#",
   },
+  {
+    category: "Education",
+    time: "13-minute read",
+    title:
+      "AI-Driven GHG Inventory for the Secondary Steel Sector: A 12-Month Journey",
+    image: "/aidrivenghg.png",
+    link: "#",
+  },
 ];
 
 export default function Resource() {

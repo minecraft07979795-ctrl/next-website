@@ -30,7 +30,7 @@ export default function DefinesUs(){
           {/* Left side - Tabs */}
           <div className="flex flex-col justify-center space-y-6">
             <h2 className="text-white text-3xl sm:text-[60px] font-bold">
-              What <span className="italic text-green-400">Defines</span> Us ?
+              What <span className="italic text-[#8DD95B]">Defines</span> Us ?
             </h2>
             <div className="mt-4 flex flex-col space-y-3">
               {tabs.map((tab) => (
@@ -39,8 +39,8 @@ export default function DefinesUs(){
                   onClick={() => setActiveTab(tab)}
                   className={`text-left text-[40px] font-medium transition-colors ${
                     activeTab.title === tab.title
-                      ? "text-green-400"
-                      : "text-gray-200 hover:text-green-300"
+                      ? "text-[#8DD95B]"
+                      : "text-gray-200 hover:text-[#8dd95ba9]"
                   }`}
                 >
                   {tab.title}
@@ -50,7 +50,7 @@ export default function DefinesUs(){
           </div>
 
           {/* Right side - Content */}
-          <div className="border-l border-green-400 pl-6 flex items-center">
+          <div className="border-l border-[#8DD95B] pl-6 flex items-center">
             <AnimatePresence mode="wait">
               <motion.p
                 key={activeTab.title}

@@ -28,14 +28,14 @@ export default function RegulationsPage() {
     {
       image: "/cock.png",
       title:
-        "From hops to hotspots: Hop Nation's first step toward decarbonisation",
+        "Achieving CBAM Compliance: Lessons from a Mid-Sized Steel Fabricator Entering the EU Market",
       category: "Brewing",
       link: "/stories/hop-nation",
     },
     {
       image: "/bottle.png",
       title:
-        "From measurement to impact: How VITHIT is driving sustainability and winning tenders",
+        "Integrating IoT for Real-Time Cold-Chain Traceability and Lowering Food Waste by 20%",
       category: "Beverages",
       link: "/stories/vithit",
     },

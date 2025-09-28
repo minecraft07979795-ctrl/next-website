@@ -18,7 +18,7 @@ export default function EUDRTimeline(){
       title: 'EUDR Adoption',
       description: 'EUDR formally adopted by the European Union.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -26,7 +26,7 @@ export default function EUDRTimeline(){
       title: 'Large Companies Compliance',
       description: 'Large companies must comply with EUDR starting 30 December 2024.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -34,7 +34,7 @@ export default function EUDRTimeline(){
       title: 'SME Inclusion',
       description: 'SMEs included in compliance from 30 June 2025.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -42,7 +42,7 @@ export default function EUDRTimeline(){
       title: 'Full Enforcement',
       description: 'Full enforcement with strict monitoring and penalties for non-compliance.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -65,7 +65,7 @@ export default function EUDRTimeline(){
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-slate-800 leading-tight mb-4">
+          <h1 className="text-2xl w-[1000px] md:text-[40px] lg:text-[40px] font-bold text-[#1A3A3A] leading-tight mb-4">
             The compliance deadlines under the European Union Deforestation-free Regulation (EUDR) for companies exporting forest-risk commodities to the EU are as follows:
           </h1>
         </div>
@@ -73,10 +73,10 @@ export default function EUDRTimeline(){
         {/* Timeline */}
         <div className="relative">
           {/* Vertical connecting line for mobile */}
-          <div className="md:hidden absolute left-8 top-8 bottom-8 w-0.5 bg-green-300"></div>
+          <div className="md:hidden absolute left-8 top-8 bottom-8 w-0.5 bg-[#8DD95B]"></div>
           
           {/* Vertical connecting line for desktop */}
-          <div className="hidden md:block absolute left-8 top-8 bottom-8 w-1 bg-green-300"></div>
+          <div className="hidden md:block absolute left-8 top-8 bottom-8 w-1 bg-[#8DD95B]"></div>
 
           {/* Timeline Items */}
           <div className="space-y-8 md:space-y-12">
@@ -92,13 +92,13 @@ export default function EUDRTimeline(){
                 <div className="md:hidden">
                   <div className="flex items-start space-x-4">
                     <div
-                      className={`relative z-10 flex-shrink-0 w-16 h-16 ${item.color} rounded-full flex items-center justify-center shadow-lg border-4 border-white`}
+                      className={`relative z-10 flex-shrink-0 w-16 h-16 ${item.color} rounded-full  flex items-center justify-center shadow-lg border-4 border-white`}
                     >
-                      <span className="text-white font-bold text-sm">
+                      <span className="text-white font-bold text-sm bg-[#8DD95B]">
                         {item.year}
                       </span>
                     </div>
-                    <div className="flex-1 bg-white rounded-lg shadow-md p-4 border-l-4 border-green-400">
+                    <div className="flex-1 bg-white rounded-lg shadow-md p-4 border-l-4 border-[#8DD95B]">
                       <h3 className="font-semibold text-slate-800 mb-2">
                         {item.title}
                       </h3>
@@ -111,18 +111,18 @@ export default function EUDRTimeline(){
 
                 {/* Desktop layout */}
                 <div className="hidden md:block">
-                  <div className="flex items-center">
+                  <div className="flex items-center ">
                     {/* Year circle */}
                     <div
-                      className={`relative z-10 w-16 h-16 ${item.color} rounded-full flex items-center justify-center shadow-xl border-4 border-white transition-all duration-300 hover:scale-110`}
+                      className={`relative z-10 w-16 h-16 ${item.color} bg-[#8DD95B] rounded-full flex items-center justify-center shadow-xl border-4 border-white transition-all duration-300 hover:scale-110`}
                     >
-                      <span className="text-white font-bold text-sm">
+                      <span className="text-white font-bold text-sm ">
                         {item.year}
                       </span>
                     </div>
 
                     {/* Content card */}
-                    <div className="ml-8 flex-1 bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-400 hover:shadow-xl transition-all duration-300">
+                    <div className="ml-8 flex-1 bg-white rounded-xl shadow-lg p-6 border-l-4 border-[#8DD95B] hover:shadow-xl transition-all duration-300">
                       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
                         <div className="flex-1">
                           <h3 className="text-xl font-semibold text-slate-800 mb-2">
@@ -132,20 +132,7 @@ export default function EUDRTimeline(){
                             {item.description}
                           </p>
                         </div>
-                        {/* {item.year === '2024' && (
-                          <div className="mt-4 lg:mt-0 lg:ml-4">
-                            <span className="inline-block bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
-                              30 December 2024
-                            </span>
-                          </div>
-                        )}
-                        {item.year === '2025' && (
-                          <div className="mt-4 lg:mt-0 lg:ml-4">
-                            <span className="inline-block bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
-                              30 June 2025
-                            </span>
-                          </div>
-                        )} */}
+ 
                       </div>
                     </div>
                   </div>
@@ -154,7 +141,7 @@ export default function EUDRTimeline(){
                 {/* Expanded details for mobile */}
                 {selectedItem === index && (
                   <div className="md:hidden mt-4 bg-green-50 rounded-lg p-4 border border-green-200 animate-pulse">
-                    <p className="text-sm text-green-700 font-medium">
+                    <p className="text-sm text-[#8DD95B] font-medium">
                       Click to collapse details
                     </p>
                   </div>
@@ -164,28 +151,7 @@ export default function EUDRTimeline(){
           </div>
         </div>
 
-        {/* Footer info */}
-        {/* <div className="mt-16 bg-white rounded-xl shadow-lg p-6 border-t-4 border-blue-400">
-          <div className="text-center">
-            <h3 className="text-lg font-semibold text-slate-800 mb-3">
-              Key Information
-            </h3>
-            <div className="grid md:grid-cols-3 gap-4 text-sm text-slate-600">
-              <div className="bg-blue-50 p-3 rounded-lg">
-                <span className="font-medium text-blue-700">Forest-risk commodities:</span>
-                <br />Cattle, cocoa, coffee, palm oil, soy, wood, rubber
-              </div>
-              <div className="bg-green-50 p-3 rounded-lg">
-                <span className="font-medium text-green-700">Compliance required:</span>
-                <br />Due diligence and risk assessment systems
-              </div>
-              <div className="bg-orange-50 p-3 rounded-lg">
-                <span className="font-medium text-orange-700">Penalties:</span>
-                <br />Fines up to 4% of annual turnover
-              </div>
-            </div>
-          </div>
-        </div> */}
+ 
       </div>
     </div>
   );
