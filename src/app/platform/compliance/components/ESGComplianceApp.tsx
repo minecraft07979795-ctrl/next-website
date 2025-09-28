@@ -112,12 +112,12 @@ export default function ESGComplianceApp(){
     <div className="relative">
       <button
         onClick={() => handleDropdownToggle(field)}
-        className="w-full px-4 py-2 text-left bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent flex items-center justify-between"
+        className="w-full px-4 py-2 text-black text-left bg-white border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent flex items-center justify-between"
       >
         <span className={formData[field] ? 'text-gray-900' : 'text-gray-500'}>
           {formData[field] || placeholder}
         </span>
-        <ChevronDown className="w-4 h-4 text-gray-400" />
+        <ChevronDown className="w-4 h-4 text-gray-400 " />
       </button>
       
       {dropdownOpen === field && (
@@ -126,7 +126,7 @@ export default function ESGComplianceApp(){
             <button
               key={option}
               onClick={() => handleDropdownSelect(field, option)}
-              className="w-full px-4 py-2 text-left hover:bg-gray-50 focus:outline-none focus:bg-gray-50 first:rounded-t-lg last:rounded-b-lg"
+              className="w-full px-4 py-2 text-left hover:bg-gray-50 focus:outline-none focus:bg-gray-50 text-black first:rounded-t-lg last:rounded-b-lg"
             >
               {option}
             </button>
@@ -149,7 +149,7 @@ export default function ESGComplianceApp(){
             streamlines data workflows, enhances accuracy, and helps you meet investor and market 
             expectations with ease.
           </p>
-          <button onClick={scrollToContact} className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+          <button onClick={scrollToContact} className="bg-[#8DD95B] hover:bg-[#8DD95B] text-white px-8 py-3 rounded-lg font-semibold transition-colors">
             Explore Report Types
           </button>
         </div>
@@ -163,7 +163,7 @@ export default function ESGComplianceApp(){
                 type="text"
                 value={formData.companyName}
                 onChange={(e) => setFormData(prev => ({ ...prev, companyName: e.target.value }))}
-                className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                className="w-full px-4 text-black py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8DD95B] focus:border-transparent"
               />
             </div>
             
@@ -184,7 +184,7 @@ export default function ESGComplianceApp(){
           </div>
 
           <div className="flex justify-end">
-            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg font-semibold flex items-center gap-2 transition-colors">
+            <button className="bg-[#8DD95B] hover:bg-[#8dd95bd3] text-white px-6 py-2 rounded-lg font-semibold flex items-center gap-2 transition-colors">
               <span>+</span>
               New Custom Report
             </button>
@@ -214,7 +214,7 @@ export default function ESGComplianceApp(){
                 <div className="flex items-center gap-2 ml-4">
                   <button
                     onClick={() => handleGenerateReport(template)}
-                    className="bg-green-100 hover:bg-green-200 text-green-700 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+                    className="bg-green-100 hover:bg-green-200 text-[#8DD95B] px-4 py-2 rounded-lg text-sm font-medium transition-colors"
                   >
                     Generate Report
                   </button>
@@ -243,7 +243,7 @@ export default function ESGComplianceApp(){
             streamlines data workflows, enhances accuracy, and helps you meet investor and market 
             expectations with ease.
           </p>
-          <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+          <button className="bg-[#8DD95B] hover:bg-[#8dd95bce] text-white px-8 py-3 rounded-lg font-semibold transition-colors">
             Explore Report Types
           </button>
         </div>
@@ -286,7 +286,7 @@ export default function ESGComplianceApp(){
           </div>
 
           <div className="flex justify-end">
-            <button className="bg-green-500 text-white px-6 py-2 rounded-lg font-semibold flex items-center gap-2 opacity-75">
+            <button className="bg-[#8DD95B] text-white px-6 py-2 rounded-lg font-semibold flex items-center gap-2 opacity-75">
               <span>+</span>
               New Custom Report
             </button>
@@ -294,7 +294,7 @@ export default function ESGComplianceApp(){
         </div>
 
         {/* CarbonScan Assistant Modal */}
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="fixed inset-0  bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-xl shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
             {/* Modal Header */}
             <div className="flex items-center justify-between p-6 border-b border-gray-200">
@@ -324,7 +324,7 @@ export default function ESGComplianceApp(){
                       onClick={() => handleOptionSelect(option)}
                       className={`px-4 py-2 rounded-lg border text-sm font-medium transition-colors ${
                         currentQuestion.selectedOption === option
-                          ? 'bg-green-100 border-green-500 text-green-700'
+                          ? 'bg-green-100 border-[#8DD95B] text-[#8DD95B]'
                           : 'bg-gray-50 border-gray-200 text-gray-700 hover:bg-gray-100'
                       }`}
                     >
@@ -335,7 +335,7 @@ export default function ESGComplianceApp(){
 
                 <div className="text-center mb-6">
                   <div className="inline-flex space-x-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#8DD95B] rounded-full"></div>
                     <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
                     <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
                   </div>
@@ -350,19 +350,19 @@ export default function ESGComplianceApp(){
                 
                 <ul className="space-y-2 text-sm text-gray-700 mb-4">
                   <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-[#8DD95B] rounded-full mt-2 flex-shrink-0"></div>
                     <span>Carbon neutrality targets with science-based reduction pathways</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-[#8DD95B] rounded-full mt-2 flex-shrink-0"></div>
                     <span>Renewable energy transition across all operations</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-[#8DD95B] rounded-full mt-2 flex-shrink-0"></div>
                     <span>Supply chain decarbonization initiatives</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-[#8DD95B] rounded-full mt-2 flex-shrink-0"></div>
                     <span>Climate risk assessment and adaptation measures</span>
                   </li>
                 </ul>
@@ -380,7 +380,7 @@ export default function ESGComplianceApp(){
               <div className="flex justify-end">
                 <button
                   onClick={handleUseResponse}
-                  className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors"
+                  className="bg-[#8DD95B] hover:bg-[#8dd95bbc] text-white px-6 py-2 rounded-lg font-semibold transition-colors"
                   disabled={!currentQuestion.selectedOption}
                 >
                   Use this response
@@ -411,7 +411,7 @@ export default function ESGComplianceApp(){
                 </div>
                 
                 <div className="flex items-center gap-2 ml-4">
-                  <button className="bg-green-100 text-green-700 px-4 py-2 rounded-lg text-sm font-medium">
+                  <button className="bg-green-100 text-[#8DD95B] px-4 py-2 rounded-lg text-sm font-medium">
                     Generate Report
                   </button>
                   <button className="text-gray-400 p-2">

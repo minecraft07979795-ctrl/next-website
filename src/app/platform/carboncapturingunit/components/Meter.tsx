@@ -153,7 +153,7 @@ type CircularMeterProps = {
 
           {/* Center Value */}
           <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <div className="text-3xl lg:text-4xl font-bold text-gray-900 group-hover:scale-105 transition-transform duration-300">
+            <div className="text-3xl lg:text-3xl font-semibold text-gray-900 group-hover:scale-105 transition-transform duration-300 text-[24px]">
               {metric.value}
             </div>
             {metric.unit && (

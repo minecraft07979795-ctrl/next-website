@@ -12,7 +12,7 @@ export default function CapturingHome() {
 
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-gray-900">
+    <div className="relative h-[90vh] flex items-center justify-center bg-gray-900">
       {/* Background Image */}
       <Image
         src="/minimgbg.png" // replace with your uploaded image path in /public
@@ -52,6 +52,28 @@ export default function CapturingHome() {
             learn More
           </button>
         </div>
+
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-start text-white gap-10 md:gap-20 absolute mt-5">
+        
+        {/* Accuracy Rate */}
+        <div className="text-start">
+          <h2 className="text-3xl md:text-4xl font-normal">99.9%</h2>
+          <p className="text-lg md:text-xl mt-2">Accuracy Rate</p>
+        </div>
+
+        {/* Monitoring */}
+        <div className="text-start">
+          <h2 className="text-3xl md:text-4xl font-normal">24/7</h2>
+          <p className="text-lg md:text-xl mt-2">Monitoring</p>
+        </div>
+
+        {/* Global Clients */}
+        <div className="text-start">
+          <h2 className="text-3xl md:text-4xl font-normal">500+</h2>
+          <p className="text-lg md:text-xl mt-2">Global Clients</p>
+        </div>
+      </div>
+
       </div>
 
       {/* Interactive Modals */}

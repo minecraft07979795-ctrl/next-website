@@ -1,7 +1,22 @@
+"use client"
+
 import { Mail, Linkedin } from "lucide-react";
 // import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
+
+    const links = [
+    { label: "Corporate Carbon Footprint", href: "/platform/corporateCarbon" },
+    { label: "Product Carbon Footprint", href: "/platform/lca" },
+    { label: "ESG Disclosure Reporting", href: "/platform/esg&carbonreporting" },
+    { label: "Carbon Capturing Units", href: "/platform/carboncapturingunit" },
+    { label: "Carbon Credits", href: "/platform/carbonCredit" },
+    { label: "Carbon Training", href: "/education" },
+    { label: "Energy Audits", href: "/platform/audit" },
+    { label: "Compliance", href: "/platform/compliance" },
+  ];
+
   return (
     <footer className="bg-[#032B29] text-white">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-5 gap-8">
@@ -26,7 +41,7 @@ export default function Footer() {
         </div>
 
         {/* Platform */}
-        <div>
+        {/* <div>
           <h4 className="font-bold mb-3">PLATFORM</h4>
           <ul className="space-y-2 text-sm">
             <li>Corporate Carbon Footprint</li>
@@ -38,21 +53,37 @@ export default function Footer() {
             <li>Energy Audits</li>
             <li>Compliance</li>
           </ul>
-        </div>
+        </div> */}
+
+         <div>
+      <h4 className="font-bold mb-3">PLATFORM</h4>
+      <ul className="space-y-2 text-sm">
+        {links.map((item, index) => (
+          <li key={index}>
+            <Link
+              href={item.href}
+              className="hover:text-green-500 transition-colors duration-200"
+            >
+              {item.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
 
         {/* Company */}
         <div>
           <h4 className="font-bold mb-3">COMPANY</h4>
           <ul className="space-y-2 text-sm">
-            <li>About Us</li>
+            <li><a href="/Company">About Us</a></li>
             <li>Join as Team Member</li>
             <li>Join as Channel Partner</li>
           </ul>
 
           <h4 className="font-bold mt-6 mb-3">RESOURCES</h4>
           <ul className="space-y-2 text-sm">
-            <li>Blogs</li>
-            <li>Case Studies</li>
+            <li><a href="/resources/blogs">Blogs</a></li>
+            <li><a href="/resources/newsletter">New Letters</a></li>
           </ul>
         </div>
 
@@ -65,9 +96,10 @@ export default function Footer() {
           </div>
           <h4 className="font-bold mb-3">LOCATIONS</h4>
           <ul className="space-y-2 text-sm">
-            <li>London 🇬🇧</li>
-            <li>Singapore 🇸🇬</li>
-            <li>Tokyo 🇯🇵</li>
+            <li>Thailand </li>
+            <li>Singapore </li>
+            <li>Columbia </li>
+            <li>Malysia </li>
           </ul>
         </div>
       </div>
