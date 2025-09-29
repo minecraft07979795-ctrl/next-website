@@ -24,9 +24,9 @@ export default function RSPOReadinessPackage(){
         {/* Package Items */}
         <div className="grid md:grid-cols-3 gap-12">
           {/* Compliance Readiness Report */}
-          <div className="text-center">
+          <div className="text-center bg-[#F9FAFB] p-5 rounded-2xl">
             <div className="flex justify-center mb-6">
-              <div className="w-20 h-20 bg-green-400 rounded-full flex items-center justify-center">
+              <div className="w-20 h-20 bg-[#8DD95B] rounded-full flex items-center justify-center">
                 <FileText className="w-8 h-8 text-white" />
               </div>
             </div>
@@ -40,9 +40,9 @@ export default function RSPOReadinessPackage(){
           </div>
 
           {/* Traceability Gap Analysis */}
-          <div className="text-center">
+          <div className="text-center bg-[#F9FAFB] p-5 rounded-2xl">
             <div className="flex justify-center mb-6">
-              <div className="w-20 h-20 bg-green-400 rounded-full flex items-center justify-center">
+              <div className="w-20 h-20 bg-[#8DD95B] rounded-full flex items-center justify-center">
                 <MapPin className="w-8 h-8 text-white" />
               </div>
             </div>
@@ -56,9 +56,9 @@ export default function RSPOReadinessPackage(){
           </div>
 
           {/* Knowledge Base & Training */}
-          <div className="text-center">
+          <div className="text-center bg-[#F9FAFB] p-5 rounded-2xl">
             <div className="flex justify-center mb-6">
-              <div className="w-20 h-20 bg-green-400 rounded-full flex items-center justify-center">
+              <div className="w-20 h-20 bg-[#8DD95B] rounded-full flex items-center justify-center">
                 <GraduationCap className="w-8 h-8 text-white" />
               </div>
             </div>

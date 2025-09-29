@@ -14,11 +14,11 @@ export default function CBAMTimeline(){
 
   const timelineData: TimelineItem[] = [
     {
-      year: '2023-2025',
+      year: '2023',
       // title: 'EUDR Adoption',
       title: 'CBAM transitional phase with mandatory emissions reporting',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -26,7 +26,7 @@ export default function CBAMTimeline(){
       // title: 'Large Companies Compliance',
       title: 'Malaysia advances carbon pricing via Voluntary Carbon Market (VCM)',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -34,7 +34,7 @@ export default function CBAMTimeline(){
       // title: 'SME Inclusion',
       title: 'Full CBAM implementation with carbon levy payments',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -42,7 +42,7 @@ export default function CBAMTimeline(){
       // title: 'Full Enforcement',
       title: 'Late 2020s: Malaysia introduces national carbon tax under NETR',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -50,7 +50,7 @@ export default function CBAMTimeline(){
       // title: 'ACE',
       title: 'Expansion of CBAM scope and stricter verification requirements.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     } 
   ];
@@ -73,10 +73,10 @@ export default function CBAMTimeline(){
         {/* Timeline */}
         <div className="relative">
           {/* Vertical connecting line for mobile */}
-          <div className="md:hidden absolute left-8 top-8 bottom-8 w-0.5 bg-green-300"></div>
+          <div className="md:hidden absolute left-8 top-8 bottom-8 w-0.5 bg-[#8DD95B]"></div>
           
           {/* Vertical connecting line for desktop */}
-          <div className="hidden md:block absolute left-8 top-8 bottom-8 w-1 bg-green-300"></div>
+          <div className="hidden md:block absolute left-8 top-8 bottom-8 w-1 bg-[#8DD95B]"></div>
 
           {/* Timeline Items */}
           <div className="space-y-8 md:space-y-12">
@@ -98,7 +98,7 @@ export default function CBAMTimeline(){
                         {item.year}
                       </span> */}
                     </div>
-                    <div className="flex-1 bg-white rounded-lg shadow-md p-4 border-l-4 border-green-400">
+                    <div className="flex-1 bg-white rounded-lg shadow-md p-4 border-l-4 border-[#8DD95B]">
                       <h3 className="font-semibold text-slate-800 mb-2">
                         {item.title}
                       </h3>
@@ -122,7 +122,7 @@ export default function CBAMTimeline(){
                     </div>
 
                     {/* Content card */}
-                    <div className="ml-8 flex-1 bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-400 hover:shadow-xl transition-all duration-300">
+                    <div className="ml-8 flex-1 bg-white rounded-xl shadow-lg p-6 border-l-4 border-[#8DD95B] hover:shadow-xl transition-all duration-300">
                       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
                         <div className="flex-1">
                           <h3 className="text-[18px] text-slate-800 mb-2">
@@ -154,7 +154,7 @@ export default function CBAMTimeline(){
                 {/* Expanded details for mobile */}
                 {selectedItem === index && (
                   <div className="md:hidden mt-4 bg-green-50 rounded-lg p-4 border border-green-200 animate-pulse">
-                    <p className="text-sm text-green-700 font-medium">
+                    <p className="text-sm text-[#8DD95B] p-5 rounded-2xl font-medium">
                       Click to collapse details
                     </p>
                   </div>
@@ -186,7 +186,7 @@ export default function CBAMTimeline(){
             </div>
           </div>
         </div> */}
-        <h2 className='text-black font-medium'>
+        <h2 className='text-[#1A3A3A] font-medium mt-4 text-[20px]'>
           Early preparation is essential, as both CBAM and Malaysia’s carbon tax will reshape cost structures, trade competitiveness, and investor expectations.
         </h2>
       </div>

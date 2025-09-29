@@ -18,7 +18,7 @@ export default function HalalTimeline(){
       // title: 'EUDR Adoption',
       title: 'Global recognition of Halal certification strengthens across food exports.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -26,7 +26,7 @@ export default function HalalTimeline(){
       // title: 'Large Companies Compliance',
       title: 'Rising international demand boosts Halal-certified trade.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -34,7 +34,7 @@ export default function HalalTimeline(){
       // title: 'SME Inclusion',
       title: 'Certification expands to logistics, hospitality, and full supply chains.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -42,7 +42,7 @@ export default function HalalTimeline(){
       // title: 'Full Enforcement',
       title: 'Stricter global standards on hygiene, traceability, and ethical compliance.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -50,7 +50,7 @@ export default function HalalTimeline(){
       // title: 'ACE',
       title: 'Halal certification becomes a prerequisite for export competitiveness.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -58,7 +58,7 @@ export default function HalalTimeline(){
       // title: 'Market Preference',
       title: 'Digital traceability and blockchain adoption strengthen Halal integrity.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     }
     ,
@@ -67,7 +67,7 @@ export default function HalalTimeline(){
       // title: 'Market Preference',
       title: 'Halal certification begins integration with ESG and sustainability frameworks.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     }
     ,
@@ -76,7 +76,7 @@ export default function HalalTimeline(){
       // title: 'Market Preference',
       title: 'Cross-border mutual recognition agreements expand certification acceptance.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     }
     ,
@@ -85,7 +85,7 @@ export default function HalalTimeline(){
       // title: 'Market Preference',
       title: 'Halal certification adopted as a baseline standard across global supply chains.',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     }
   ];
@@ -108,10 +108,10 @@ export default function HalalTimeline(){
         {/* Timeline */}
         <div className="relative">
           {/* Vertical connecting line for mobile */}
-          <div className="md:hidden absolute left-8 top-8 bottom-8 w-0.5 bg-green-300"></div>
+          <div className="md:hidden absolute left-8 top-8 bottom-8 w-0.5 bg-[#8DD95B]"></div>
           
           {/* Vertical connecting line for desktop */}
-          <div className="hidden md:block absolute left-8 top-8 bottom-8 w-1 bg-green-300"></div>
+          <div className="hidden md:block absolute left-8 top-8 bottom-8 w-1 bg-[#8DD95B]"></div>
 
           {/* Timeline Items */}
           <div className="space-y-8 md:space-y-12">
@@ -133,7 +133,7 @@ export default function HalalTimeline(){
                         {item.year}
                       </span> */}
                     </div>
-                    <div className="flex-1 bg-white rounded-lg shadow-md p-4 border-l-4 border-green-400">
+                    <div className="flex-1 bg-white rounded-lg shadow-md p-4 border-l-4 border-[#8DD95B]">
                       <h3 className="font-semibold text-slate-800 mb-2">
                         {item.title}
                       </h3>
@@ -157,7 +157,7 @@ export default function HalalTimeline(){
                     </div>
 
                     {/* Content card */}
-                    <div className="ml-8 flex-1 bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-400 hover:shadow-xl transition-all duration-300">
+                    <div className="ml-8 flex-1 bg-white rounded-xl shadow-lg p-6 border-l-4 border-[#8DD95B] hover:shadow-xl transition-all duration-300">
                       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
                         <div className="flex-1">
                           <h3 className="text-[18px] text-slate-800 mb-2">
@@ -189,7 +189,7 @@ export default function HalalTimeline(){
                 {/* Expanded details for mobile */}
                 {selectedItem === index && (
                   <div className="md:hidden mt-4 bg-green-50 rounded-lg p-4 border border-green-200 animate-pulse">
-                    <p className="text-sm text-green-700 font-medium">
+                    <p className="text-sm text-[#8DD95B] font-medium">
                       Click to collapse details
                     </p>
                   </div>

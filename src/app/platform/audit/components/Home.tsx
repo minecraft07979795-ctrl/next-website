@@ -12,13 +12,13 @@ export default function Home() {
 
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-gray-900">
+    <div className="relative min-h-[100vh] flex items-center justify-center bg-gray-900">
       {/* Background Image */}
       <Image
         src="/builder.png" // replace with your uploaded image path in /public
         alt="Energy Assessment"
         fill
-        className="object-cover object-center opacity-80"
+        className="object-fill object-center opacity-80"
         priority
       />
 
@@ -26,12 +26,11 @@ export default function Home() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-3xl px-6 mr-110 text-start md:text-left">
+      <div className="relative z-10 max-w-2xl px-6 mr-120 text-start md:text-left">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
-          Achieve Energy Efficiency with <br />
-          <span className="text-green-400">Energy Assessment Software</span>
+          Achieve Energy Efficiency with  Energy Assessment Software 
         </h1>
-        <p className="mt-4 text-lg text-gray-200">
+        <p className="mt-4 text-lg text-gray-200 text-[24px] font-semibold">
           Introducing mobile-first energy assessment software for growing teams
           of energy consultants, audits, utilities, and organizations
         </p>
@@ -41,7 +40,7 @@ export default function Home() {
           <button
             // onClick={() => setShowTrial(true)}
             onClick={scrollToContact}
-            className="px-6 py-3 rounded-full bg-green-500 hover:bg-green-600 text-white font-semibold transition"
+            className="px-6 py-3 rounded-full bg-[#8DD95B] hover:bg-[#8dd95bdb] text-white font-semibold transition"
           >
             Start Free Trial
           </button>

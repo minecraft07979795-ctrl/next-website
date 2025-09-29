@@ -165,7 +165,7 @@ type CircularMeterProps = {
         </div>
 
         {/* Title */}
-        <h3 className="text-sm font-bold text-gray-800 mb-4 tracking-wide group-hover:text-green-600 transition-colors duration-300">
+        <h3 className="text-sm font-bold text-gray-800 mb-4 tracking-wide group-hover:text-[#8DD95B] transition-colors duration-300">
           {metric.title}
         </h3>
 
@@ -188,7 +188,7 @@ type CircularMeterProps = {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-center mb-16"
         >
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight max-w-5xl mx-auto">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1A3A3A] leading-tight max-w-5xl mx-auto">
             Demand for carbon capture, utilization, and storage is accelerating
           </h1>
         </motion.div>
@@ -202,7 +202,7 @@ type CircularMeterProps = {
         >
           <motion.p 
             // variants={textVariants}
-            className="text-gray-700 text-base lg:text-lg leading-relaxed text-center"
+            className="text-[#1A3A3A] font-medium text-base lg:text-lg leading-relaxed text-center"
           >
             Traditional carbon capture systems often focus only on short-term storage, offering limited long-term benefits. Carbon Scan.ai 
             enables industries to go further by transforming captured CO₂ into durable construction materials such as bricks and cement 
@@ -211,7 +211,7 @@ type CircularMeterProps = {
 
           <motion.p 
             // variants={textVariants}
-            className="text-gray-700 text-base lg:text-lg leading-relaxed text-center"
+            className="text-[#1A3A3A] font-medium text-base lg:text-lg leading-relaxed text-center"
           >
             By embedding CO₂ directly into building materials, companies can reduce emissions, lower reliance on traditional cement 
             processes, and contribute to a more sustainable construction sector. Importantly, this approach not only supports 
@@ -221,7 +221,7 @@ type CircularMeterProps = {
 
           <motion.p 
             // variants={textVariants}
-            className="text-gray-700 text-base lg:text-lg leading-relaxed text-center"
+            className="text-[#1A3A3A] font-medium text-base lg:text-lg leading-relaxed text-center"
           >
             A growing number of Malaysian and international firms are exploring CCU with Carbon Scan.ai, as it offers long-term storage, 
             compliance readiness, and financial incentives through carbon markets.

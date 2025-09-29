@@ -36,7 +36,7 @@ export default function ImpactNumbers() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
             Our impact by numbers
           </h2>
-          <p className="text-gray-700 text-lg">
+          <p className="text-[#1A3A3A] font-medium text-lg">
             Carbon Scan.ai is helping businesses simplify carbon accounting with
             real-time tracking, automated reporting, and compliance-ready
             insights.

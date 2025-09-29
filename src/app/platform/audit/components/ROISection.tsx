@@ -65,7 +65,7 @@ export default function ROISection() {
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold text-gray-900"
+          className="text-3xl md:text-[48px] font-bold text-[#1A3A3A]"
         >
           Optimize ROI, Streamline Operations, Empower Teams
         </motion.h2>
@@ -73,7 +73,7 @@ export default function ROISection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-4 text-gray-600 max-w-3xl mx-auto"
+          className="mt-4 text-[#1A3A3A] max-w-4xl mx-auto text-[20px] font-medium"
         >
           Explore how our platform enhances efficiency, transparency, and
           decision-making across your entire energy management lifecycle.
@@ -97,7 +97,7 @@ export default function ROISection() {
               </div>
               <div className="mt-4 flex items-center space-x-3">
                 {feature.icon}
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold text-[#1A3A3A]">
                   {feature.title}
                 </h3>
               </div>

@@ -10,7 +10,7 @@ export default function Manufacturing() {
   
   return (
     <section className="min-h-screen flex items-center justify-center px-6 py-12 bg-white">
-      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         
         {/* LEFT SIDE - TEXT */}
         <motion.div
@@ -33,7 +33,7 @@ export default function Manufacturing() {
           <button
             // onClick={() => setShowTrial(true)}
             onClick={scrollToContact} 
-            className="px-6 py-3 rounded-full bg-green-500 hover:bg-green-600 text-white font-semibold transition"
+            className="px-6 py-3 rounded-full bg-[#8DD95B] hover:bg-[#8dd95bce] text-white font-semibold transition"
           >
             Book a demo
           </button>
@@ -59,7 +59,7 @@ export default function Manufacturing() {
             alt="Drive Energy Efficiency Dashboard"
             width={600}
             height={400}
-            className=" w-full h-auto"
+            className=" w-[90%] h-auto"
             priority
           />
         </motion.div>

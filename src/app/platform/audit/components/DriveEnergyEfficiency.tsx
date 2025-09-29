@@ -15,10 +15,10 @@ export default function DriveEnergyEfficiency() {
           transition={{ duration: 0.8 }}
           className="text-center md:text-left"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
+          <h2 className="text-3xl md:text-[50px] font-bold text-[#1A3A3A] leading-snug">
             Drive Energy <br /> Efficiency
           </h2>
-          <p className="mt-4 text-gray-600 text-lg leading-relaxed">
+          <p className="mt-4 text-[#1A3A3A] text-lg text-[20px] font-semibold leading-relaxed">
             Gain energy consumption insights on a custom dashboard to create energy
             saving initiatives. Analyze the impact of your energy initiatives from
             our energy assessment software.
@@ -37,7 +37,7 @@ export default function DriveEnergyEfficiency() {
             alt="Drive Energy Efficiency Dashboard"
             width={600}
             height={400}
-            className=" w-full h-auto"
+            className=" w-[90%] h-auto"
             priority
           />
         </motion.div>

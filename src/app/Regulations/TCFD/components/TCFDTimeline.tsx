@@ -18,7 +18,7 @@ export default function TCFDTimeline(){
       // title: 'EUDR Adoption',
       title: 'Comply or Explain” sustainability reports mandated PwC',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -26,7 +26,7 @@ export default function TCFDTimeline(){
       // title: 'Large Companies Compliance',
       title: 'Mandatory TCFD-aligned climate disclosures, internal reviews, board training PwC',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -34,7 +34,7 @@ export default function TCFDTimeline(){
       // title: 'SME Inclusion',
       title: 'Sector-based mandatory climate reporting begins azeusconvene.com',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -42,7 +42,7 @@ export default function TCFDTimeline(){
       // title: 'Full Enforcement',
       title: 'All listed issuers must report Scope 1 & 2 GHG emissions (ISSB-aligned) Rajah & Tann AsiaInCorp Globalunravelcarbon.comglobalelr.com',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     },
     {
@@ -50,7 +50,7 @@ export default function TCFDTimeline(){
       // title: 'ACE',
       title: 'Scope 3 emissions reporting for large issuers; roadmap for others under review Rajah & Tann AsiaInCorp Globalunravelcarbon.com',
       isActive: false,
-      color: 'bg-green-400',
+      color: 'bg-[#8DD95B]',
       textColor: 'text-green-400'
     }
     ,
@@ -59,8 +59,8 @@ export default function TCFDTimeline(){
       // title: 'Market Preference',
       title: 'Limited assurance on Scope 1 & 2 emissions starts Rajah & Tann AsiaInCorp Global',
       isActive: true,
-      color: 'bg-slate-700',
-      textColor: 'text-slate-700'
+      color: 'bg-[#8DD95B]',
+      textColor: 'text-green-400'
     }
     ,
     {
@@ -68,8 +68,8 @@ export default function TCFDTimeline(){
       // title: 'Market Preference',
       title: 'Additional ISSB-aligned disclosures for large non-STI issuers; assurance rollout unravelcarbon.com Anthesis',
       isActive: true,
-      color: 'bg-slate-700',
-      textColor: 'text-slate-700'
+      color: 'bg-[#8DD95B]',
+      textColor: 'text-green-400'
     }
   ];
 
@@ -91,10 +91,10 @@ export default function TCFDTimeline(){
         {/* Timeline */}
         <div className="relative">
           {/* Vertical connecting line for mobile */}
-          <div className="md:hidden absolute left-8 top-8 bottom-8 w-0.5 bg-green-300"></div>
+          <div className="md:hidden absolute left-8 top-8 bottom-8 w-0.5 bg-[#8DD95B]"></div>
           
           {/* Vertical connecting line for desktop */}
-          <div className="hidden md:block absolute left-8 top-8 bottom-8 w-1 bg-green-300"></div>
+          <div className="hidden md:block absolute left-8 top-8 bottom-8 w-1 bg-[#8DD95B]"></div>
 
           {/* Timeline Items */}
           <div className="space-y-8 md:space-y-12">
@@ -116,7 +116,7 @@ export default function TCFDTimeline(){
                         {item.year}
                       </span> */}
                     </div>
-                    <div className="flex-1 bg-white rounded-lg shadow-md p-4 border-l-4 border-green-400">
+                    <div className="flex-1 bg-white rounded-lg shadow-md p-4 border-l-4 border-[#8DD95B]">
                       <h3 className="font-semibold text-slate-800 mb-2">
                         {item.title}
                       </h3>
@@ -140,7 +140,7 @@ export default function TCFDTimeline(){
                     </div>
 
                     {/* Content card */}
-                    <div className="ml-8 flex-1 bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-400 hover:shadow-xl transition-all duration-300">
+                    <div className="ml-8 flex-1 bg-white rounded-xl shadow-lg p-6 border-l-4 border-[#8DD95B] hover:shadow-xl transition-all duration-300">
                       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
                         <div className="flex-1">
                           <h3 className="text-[18px] text-slate-800 mb-2">
@@ -172,7 +172,7 @@ export default function TCFDTimeline(){
                 {/* Expanded details for mobile */}
                 {selectedItem === index && (
                   <div className="md:hidden mt-4 bg-green-50 rounded-lg p-4 border border-green-200 animate-pulse">
-                    <p className="text-sm text-green-700 font-medium">
+                    <p className="text-sm text-[#8DD95B] font-medium">
                       Click to collapse details
                     </p>
                   </div>

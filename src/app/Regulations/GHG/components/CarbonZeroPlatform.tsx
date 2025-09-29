@@ -5,14 +5,14 @@ import Image from 'next/image';
 export default function CarbonZeroPlatform(){
   return (
     <div className="min-h-screen bg-white py-16 px-4 md:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-8xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Content */}
           <div className="space-y-8">
             {/* Title */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               <span className="text-slate-800">Build GHG-Ready Emissions Reporting with  </span>
-              <span className="text-green-400">Carbon-Zero.ai</span>
+              <span className="text-[#8DD95B]">Carbon-Scan.ai</span>
             </h1>
 
             {/* Description Paragraphs */}
@@ -32,7 +32,7 @@ export default function CarbonZeroPlatform(){
 
             {/* CTA Button */}
             <div>
-              <button className="bg-green-400 hover:bg-green-500 text-white font-semibold px-8 py-4 rounded-full flex items-center space-x-3 transition-colors duration-200 text-lg">
+              <button className="bg-[#8DD95B] hover:bg-[#8dd95bc9] text-white font-semibold px-8 py-4 rounded-full flex items-center space-x-3 transition-colors duration-200 text-lg">
                 <span>Discover more about the platform</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
@@ -47,7 +47,7 @@ export default function CarbonZeroPlatform(){
                 height={600}
                 src="/ghgdash.png" 
                 alt="Carbon-Zero.ai EUDR Dashboard showing compliance tracking, due diligence statements, and supply chain monitoring interface"
-                className="w-full h-auto rounded-lg shadow-2xl"
+                className="w-[90%] h-auto"
               />
             </div>
           </div>

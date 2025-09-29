@@ -17,10 +17,10 @@ export default function SmartEnergy() {
           transition={{ duration: 0.8 }}
           className="text-center md:text-left"
         >
-          <h2 className="text-3xl md:text-[60px] font-bold text-[#1A3A3A] leading-snug">
+          <h2 className="text-3xl md:text-[50px] font-bold text-[#1A3A3A] leading-snug">
             Smart Energy Assessment and  <br /> Conservation
           </h2>
-          <p className="mt-4 text-[#1A3A3A] text-[20px] text-lg leading-relaxed">
+          <p className="mt-4 text-[#1A3A3A] text-[20px] font-medium text-lg leading-relaxed">
             Assess energy consumption patterns with filters like equipment usage, time period, sites, and more. Identify ways to reduce cost, monitor carbon emissions, improve sustainability, and compare energy consumption with similar facilities.
           </p>
         </motion.div>
@@ -37,7 +37,7 @@ export default function SmartEnergy() {
             alt="Drive Energy Efficiency Dashboard"
             width={600}
             height={400}
-            className=" w-full h-auto rounded-2xl shadow-xl"
+            className=" w-[80%] h-auto"
             priority
           />
         </motion.div>

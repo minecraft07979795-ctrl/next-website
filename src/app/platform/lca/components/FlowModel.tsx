@@ -10,7 +10,7 @@ export default function FlowModel() {
 
   return (
     <section className="min-h-screen flex items-center justify-center px-6 py-12 bg-white">
-      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         
         {/* LEFT SIDE - TEXT */}
         <motion.div
@@ -22,14 +22,14 @@ export default function FlowModel() {
             <p className="mt-4 text-[#8DD95B] text-lg leading-relaxed">
                 FLOW-MODEL
             </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
+          <h2 className="text-3xl md:text-[48px] font-bold text-[#1A3A3A] leading-snug">
             Design, adapt, and enhance models step by step
           </h2>
-          <p className="mt-4 text-gray-600 text-lg leading-relaxed">
+          <p className="mt-4 text-[#1A3A3A] text-lg leading-relaxed">
             Easily build and fine-tune models using flexible process blocks and an intuitive flow interface. Connect elements, add or remove stages, and continuously refine complex systems to boost both precision and efficiency.
           </p>
           <br/>
-        <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:gap-6">
+        <div className="mt-2 flex flex-col sm:flex-row gap-4 sm:gap-6">
           <button
             // onClick={() => setShowTrial(true)}
             onClick={scrollToContact} 
@@ -37,12 +37,7 @@ export default function FlowModel() {
           >
             Book a demo
           </button>
-          {/* <button
-            // onClick={() => setShowDemo(true)}
-            className="px-6 py-3 rounded-full border border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-semibold transition"
-          >
-            Explore the platform
-          </button> */}
+ 
         </div>
         </motion.div>
 
@@ -58,7 +53,7 @@ export default function FlowModel() {
             alt="Drive Energy Efficiency Dashboard"
             width={600}
             height={400}
-            className=" w-full h-auto"
+            className=" w-[90%] h-auto"
             priority
           />
         </motion.div>

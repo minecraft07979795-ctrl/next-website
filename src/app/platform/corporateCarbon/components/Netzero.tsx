@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function NetZero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6 py-12 bg-white">
-      <div className="max-w-8xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-8xl w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         
         {/* LEFT SIDE - TEXT */}
         <motion.div
@@ -20,10 +20,10 @@ export default function NetZero() {
           <h2 className="text-3xl md:text-[60px] font-bold text-gray-900 leading-snug ">
             A complete solution  <br /> for your <span className="text-[#8DD95B]">net zero future</span>
           </h2>
-          <p className="mt-4 text-gray-600 text-lg leading-relaxed">
+          <p className="mt-4 text-[#1A3A3A] text-[20px] font-medium text-lg leading-relaxed">
             Avoid headaches from the get-go by automating your data collection and compliance, adjusted to the precise needs and structure of your business.
           </p>
-          <p className="mt-4 text-gray-600 text-lg leading-relaxed">
+          <p className="mt-4 text-[#1A3A3A] text-[20px] font-medium text-lg leading-relaxed">
             Calculate 100% of your greenhouse gas (GHG) emissions across Scope 1, 2 and 3 — with full transparency in your value chain.
           </p>
         </motion.div>
@@ -40,7 +40,7 @@ export default function NetZero() {
             alt="Drive Energy Efficiency Dashboard"
             width={500}
             height={300}
-            className=" w-full h-auto"
+            className=" w-[90%] h-auto"
             priority
           />
         </motion.div>

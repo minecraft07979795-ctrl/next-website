@@ -4,12 +4,12 @@ import Image from "next/image";
 
 export default  function BuildLca(){
   return (
-    <section className="bg-white w-full h-screen">
+    <section className="bg-white w-full h-[90vh]">
       <div className="max-w-7xl mx-auto h-full flex items-center px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full">
           {/* Text Section */}
           <div className="flex flex-col justify-center">
-            <h1 className="text-[60px] sm:text-[60px] font-bold text-[#1A3A3A] w-[108%]">
+            <h1 className="text-[48px] sm:text-[48px] font-bold text-[#1A3A3A] w-[108%]">
               Build LCA instantly and with clarity
             </h1>
             <p className="mt-6 text-[20px] font-semibold text-[#1A3A3A]">

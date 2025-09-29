@@ -87,16 +87,16 @@ export default function LifecycleAssessmentScreen(){
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-slate-100 py-12 px-4">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-8xl mx-auto">
         
         {/* Title */}
         <motion.div
         //   variants={titleVariants}
           initial="hidden"
           animate="visible"
-          className="text-center mb-16"
+          className="text-center mb-16  mx-auto"
         >
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-3xl md:text-[48px] lg:text-[48px] font-bold text-[#1A3A3A] leading-tight">
             Service Areas Within Product Lifecycle Assessment
           </h1>
         </motion.div>
@@ -106,7 +106,7 @@ export default function LifecycleAssessmentScreen(){
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto "
         >
           {services.map((service, index) => {
             const IconComponent = service.icon;
@@ -116,7 +116,7 @@ export default function LifecycleAssessmentScreen(){
                 key={index}
                 // variants={cardVariants}
                 whileHover="hover"
-                className="relative bg-white rounded-2xl p-8 shadow-lg border border-gray-100 cursor-pointer group"
+                className="relative bg-white rounded-2xl p-8 shadow-lg border border-gray-100 cursor-pointer group "
               >
                 {/* Badge for Assurance Support */}
                 {/* {service.badge && (
@@ -125,16 +125,16 @@ export default function LifecycleAssessmentScreen(){
 
                 {/* Icon */}
                 <div className="flex items-center justify-center w-16 h-16 bg-green-100 rounded-2xl mb-6 group-hover:bg-green-200 transition-colors duration-300">
-                  <IconComponent className="w-8 h-8 text-green-700" />
+                  <IconComponent className="w-8 h-8 text-[#1A3A3A]" />
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">
+                <h3 className="text-[20px] font-semibold  text-[#1A3A3A] mb-4 leading-tight">
                   {service.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-600 leading-relaxed text-base">
+                <p className="text-[#1A3A3A] leading-relaxed text-base text-[16px] font-normal text-center">
                   {service.description}
                 </p>
 

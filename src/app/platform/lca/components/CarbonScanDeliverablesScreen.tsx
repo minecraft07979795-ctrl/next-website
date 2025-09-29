@@ -98,7 +98,7 @@ export default function CarbonScanDeliverablesScreen(){
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100 py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         
         {/* Title */}
         <motion.div
@@ -107,7 +107,7 @@ export default function CarbonScanDeliverablesScreen(){
           animate="visible"
           className="text-center mb-20"
         >
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-3xl md:text-[48px] lg:text-[48px] font-bold text-[#1A3A3A] leading-tight">
             What CarbonScan.ai Delivers
           </h1>
         </motion.div>
@@ -130,30 +130,30 @@ export default function CarbonScanDeliverablesScreen(){
                 className="relative bg-white rounded-3xl p-8 lg:p-10 shadow-lg border border-gray-200 cursor-pointer group overflow-hidden"
               >
                 {/* Badge for Dedicated expert guidance */}
-                {deliverable.badge && (
+                {/* {deliverable.badge && (
                   <motion.div 
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}
                     transition={{ delay: 1.2, duration: 0.3 }}
                     className="absolute top-6 right-6 w-3 h-3 bg-red-500 rounded-full"
                   ></motion.div>
-                )}
+                )} */}
 
                 {/* Icon */}
                 <motion.div 
                 //   variants={iconVariants}
                   className="flex items-center justify-center w-20 h-20 bg-green-100 rounded-2xl mb-8 group-hover:bg-green-200 transition-colors duration-400"
                 >
-                  <IconComponent className="w-10 h-10 text-green-600" />
+                  <IconComponent className="w-10 h-10 text-[#8DD95B]" />
                 </motion.div>
 
                 {/* Title */}
-                <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-6 leading-tight">
+                <h3 className="text-[18px] lg:text-[18px] font-semibold text-[#1A3A3A] mb-6 leading-tight">
                   {deliverable.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-600 leading-relaxed text-base lg:text-lg">
+                <p className="text-[#1A3A3A] text-[14px] leading-relaxed text-base lg:text-lg">
                   {deliverable.description}
                 </p>
 

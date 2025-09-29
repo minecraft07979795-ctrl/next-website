@@ -27,9 +27,9 @@ export default function Cards() {
             <Image
               src={img.src}
               alt={img.alt}
-              width={1000}
-              height={800}
-              className="w-full h-auto object-cover"
+              width={900}
+              height={700}
+              className="w-[90%] h-auto object-cover"
               priority
             />
           </motion.div>

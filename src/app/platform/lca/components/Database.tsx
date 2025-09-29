@@ -12,7 +12,7 @@ export default function Database() {
   
   return (
     <section className="h-[60vh] flex items-center justify-center px-6 py-12 bg-white">
-      <div className="max-w-8xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         
         {/* LEFT SIDE - IMAGE */}
         <motion.div
@@ -41,26 +41,26 @@ export default function Database() {
             <p className="mt-4 text-[#8DD95B] text-lg leading-relaxed">
                   DATABASE
             </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
+          <h2 className="text-3xl md:text-[48px] font-bold text-[#1A3A3A] leading-snug">
             Built-in emission factor databases for smarter assessments
           </h2>
-          <p className="mt-4 text-gray-600 text-lg leading-relaxed">
+          <p className="mt-4 text-[#1A3A3A] text-[18px] font-normal text-lg leading-relaxed">
             Access a wide library of 20+ trusted LCI/LCIA emission factor databases.
           </p>
-          <p className="mt-4 text-gray-600 text-lg leading-relaxed">
+          <p className="mt-4 text-[#1A3A3A] text-[18px] font-normal text-lg leading-relaxed">
             Choose from global, regional, and sector-specific datasets, covering both spend-based and activity-based factors.          </p>
-          <p className="mt-4 text-gray-600 text-lg leading-relaxed">
+          <p className="mt-4 text-[#1A3A3A] text-[18px] font-normal text-lg leading-relaxed">
             Build custom databases by adding your own emission factors for fuels, logistics, products, services, and more.
           </p>
 
           
         <br/>
 
-        <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:gap-6">
+        <div className=" flex flex-col sm:flex-row gap-4 sm:gap-6">
           <button
             // onClick={() => setShowTrial(true)}
             onClick={scrollToContact} 
-            className="px-6 py-3 rounded-full bg-green-500 hover:bg-green-600 text-white font-semibold transition"
+            className="px-6 py-3 rounded-full bg-[#8DD95B] hover:bg-[#8dd95bd8] text-white font-semibold transition"
           >
             Book a demo
           </button>

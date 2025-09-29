@@ -13,16 +13,19 @@ const cards = [
     title: "RSPO",
     subtitle: "Powered by CarbonScan.ai",
     image: "/rspocard.png",
+    link: "/Regulations/RSPO",
   },
     {
     title: "Halal Certification",
     subtitle: "Powered by CarbonScan.ai",
     image: "/halalcert.png", // 👈 put image in /public
+    link: "/Regulations/Halal",
   },
     {
     title: "SGX",
     subtitle: "Powered by CarbonScan.ai",
     image: "/sgccard.png",
+    link: "/Regulations/SGX",
   },
 ];
 
@@ -33,7 +36,7 @@ export default  function ComplianceCards(){
       <div className="text-center mb-12">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 leading-snug">
           Start preparing for the future of{" "}
-          <span className="text-green-500">Compliances & regulations</span>{" "}
+          <span className="text-[#8DD95B]">Compliances & regulations</span>{" "}
           today.
         </h2>
       </div>
@@ -64,7 +67,7 @@ export default  function ComplianceCards(){
 
               {/* Button */}
               <div className="mt-auto pt-4">
-                <button className="w-full flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-medium rounded-lg py-2 transition">
+                <button className="w-full flex items-center justify-center gap-2 bg-[#8DD95B] hover:bg-[#8dd95bcb] text-white font-medium rounded-lg py-2 transition">
                   Read More <ArrowRight size={16} />
                 </button>
               </div>
