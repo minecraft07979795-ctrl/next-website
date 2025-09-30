@@ -6,9 +6,9 @@ export default function Trusted() {
   const logos = [
     "/bestinate.png",
     "/handShake.png",
-    "/mdec.png",
+    // "/mdec.png",
     "/greenBayInc.png",
-    "/Tenaga.png",
+    // "/Tenaga.png",
     "/manulife.png",
     "/simedarby.png",
     "/myown.png",

@@ -7,16 +7,23 @@ import { useContact } from "../../components/ContactContext";
 
 const team = [
   {
-    name: "NORHAIDI NOR AZMAN",
-    role: "Chief Executive Officer at EDDI Group Berhad",
-    image: "/NORHAIDI.png", // put in /public
-    linkedin: "https://www.linkedin.com/in/norhaidi-nor-azman-03722727b/",
-  },
-  {
     name: "Dr S Sugumaran",
-    role: "Founder",
+    role: "Chief executive officer",
     image: "/ceo.png",
     linkedin: "https://www.linkedin.com/in/vr1world/",
+  },
+  {
+    name: "Ahmad Shukri Tajuddin",
+    role: "Chairman",
+    image: "/Shukridem.png",
+    linkedin: "https://www.linkedin.com/in/ahmad-shukri-tajuddin-8aa23177/",
+  },
+  {
+    name: "NORHAIDI NOR AZMAN",
+    role: "Chief strategy officer",
+    // image: "/NORHAIDI.png", // put in /public
+    image: "/Norhaidide.png", // put in /public
+    linkedin: "https://www.linkedin.com/in/norhaidi-nor-azman-03722727b/",
   },
   {
     name: "Geetha Nadarajan",
@@ -24,12 +31,7 @@ const team = [
     image: "/geet.png",
     linkedin: "https://www.linkedin.com/in/ngeetha/",
   },
-  {
-    name: "Ahmad Shukri Tajuddin",
-    role: "Chief Executive Officer at Kedah Chief Minister Incorporated",
-    image: "/Shukridem.png",
-    linkedin: "https://www.linkedin.com/in/ahmad-shukri-tajuddin-8aa23177/",
-  },
+
 ];
 
 export default function ClimateLeadership(){

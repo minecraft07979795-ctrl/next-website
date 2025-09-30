@@ -18,10 +18,10 @@ export default function SmartEnergy() {
           className="text-center md:text-left"
         >
           <h2 className="text-3xl md:text-[50px] font-bold text-[#1A3A3A] leading-snug">
-            Smart Energy Assessment and  <br /> Conservation
+            Robust Energy Reporting
           </h2>
           <p className="mt-4 text-[#1A3A3A] text-[20px] font-medium text-lg leading-relaxed">
-            Assess energy consumption patterns with filters like equipment usage, time period, sites, and more. Identify ways to reduce cost, monitor carbon emissions, improve sustainability, and compare energy consumption with similar facilities.
+            Generate automated, data-rich reports that not only capture key performance metrics but also provide real-time visibility into your organization’s energy landscape. Access interactive views, detailed charts, and customized graphs to analyze cost trends, consumption patterns, carbon emissions, billing details, and ROI projections—empowering you to make informed, sustainability-driven decisions with confidence.
           </p>
         </motion.div>
 

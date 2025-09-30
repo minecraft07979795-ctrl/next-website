@@ -35,14 +35,23 @@ export default function Robust() {
           className="text-center md:text-left"
         >
           <h2 className="text-3xl md:text-[50px] font-bold text-[#1A3A3A] leading-snug">
-            Smart Energy <br /> Assessment and Conservation
+           Comprehensive Energy Audit
           </h2>
           <p className="mt-4 text-[#1A3A3A] font-medium text-[20px] text-lg leading-relaxed">
-            Assess energy consumption patterns with filters like equipment usage,
-            time period, sites, and more. Identify ways to reduce cost, monitor
-            carbon emissions, improve sustainability, and compare energy
-            consumption with similar facilities.
+            Conduct in-depth assessments of your facilities to identify inefficiencies, hidden costs, and opportunities for energy savings. Our automated audit reports provide actionable insights through detailed views, charts, and benchmarks
           </p>
+          <p className="mt-4 text-[#1A3A3A] font-medium text-[20px] text-lg leading-relaxed">
+           <span className="font-bold"> Energy Consumption Patterns </span>– Track where, when, and how energy is being used.
+          </p>
+           <p className="mt-4 text-[#1A3A3A] font-medium text-[20px] text-lg leading-relaxed">
+            <span className="font-bold"> Operational Inefficiencies </span> – Spot process gaps and equipment underperformance.
+           </p>
+           <p className="mt-4 text-[#1A3A3A] font-medium text-[20px] text-lg leading-relaxed">
+           <span className="font-bold"> Cost & Savings Analysis </span> – Break down utility spend with potential savings projections.
+           </p>
+            <p className="mt-4 text-[#1A3A3A] font-medium text-[20px] text-lg leading-relaxed">
+              <span className="font-bold"> Carbon Footprint Mapping </span> – Measure emissions tied to energy usage.
+            </p>
         </motion.div>
       </div>
     </section>

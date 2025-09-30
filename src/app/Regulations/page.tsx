@@ -30,14 +30,14 @@ export default function RegulationsPage() {
       title:
         "Achieving CBAM Compliance: Lessons from a Mid-Sized Steel Fabricator Entering the EU Market",
       category: "Brewing",
-      link: "/stories/hop-nation",
+      link: "/Regulations",
     },
     {
       image: "/bottle.png",
       title:
         "Integrating IoT for Real-Time Cold-Chain Traceability and Lowering Food Waste by 20%",
       category: "Beverages",
-      link: "/stories/vithit",
+      link: "/Regulations",
     },
   ];
 

@@ -40,14 +40,14 @@ export default function PlatformPage() {
       title:
         "Achieving CBAM Compliance: Lessons from a Mid-Sized Steel Fabricator Entering the EU Market",
       category: "Brewing",
-      link: "/stories/hop-nation",
+      link: "/platform",
     },
     {
       image: "/bottle.png",
       title:
         "Integrating IoT for Real-Time Cold-Chain Traceability and Lowering Food Waste by 20%",
       category: "Beverages",
-      link: "/stories/vithit",
+      link: "/platform",
     },
   ];
 
@@ -66,25 +66,6 @@ export default function PlatformPage() {
 
     {/* Row 1: 3 Cards + Customer Stories */}
     <div className="grid lg:grid-cols-5 gap-6 items-start">
-      {/* First 3 cards */}
-      {/* <div className="lg:col-span-3 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {regulationsTop.map((reg, idx) => (
-          <Link
-            key={idx}
-            href={reg.link}
-            className="overflow-hidden cursor-pointer transition h-[90%] flex flex-col"
-          >
-            <div className="relative w-full h-40 md:h-48 lg:h-92">
-              <Image
-                src={reg.image}
-                alt={reg.title}
-                fill
-                className="object-contain"
-              />
-            </div>
-          </Link>
-        ))}
-      </div> */}
 
             <div className="lg:col-span-3 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
               {regulationsTop.map((reg, idx) => (
@@ -141,26 +122,7 @@ export default function PlatformPage() {
         </div>
       </div>
     </div>
-
-    {/* Row 2: 5 Cards full width */}
-    {/* <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-6">
-      {regulationsBottom.map((reg, idx) => (
-        <Link
-          key={idx}
-          href={reg.link}
-          className="transition h-[65%] flex flex-col cursor-pointer"
-        >
-          <div className="relative w-full h-40 md:h-48 lg:h-92">
-            <Image
-              src={reg.image}
-              alt={reg.title}
-              fill
-              className="object-contain"
-            />
-          </div>
-        </Link>
-      ))}
-    </div> */}
+ 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-6">
           {regulationsBottom.map((reg, idx) => (
             <Link

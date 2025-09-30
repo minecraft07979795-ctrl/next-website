@@ -99,7 +99,7 @@ export default function Footer() {
             <li>Thailand </li>
             <li>Singapore </li>
             <li>Columbia </li>
-            <li>Malysia </li>
+            <li>Malaysia </li>
           </ul>
         </div>
       </div>
