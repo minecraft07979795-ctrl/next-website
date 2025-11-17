@@ -265,7 +265,7 @@ export default function Navbar() {
             CarbonScan.ai
           </span>
           <span className="text-white text-sm">
-            powered by Eddie group
+            powered by Eddi Group BHD
           </span>
         </div>
         </Link>

@@ -24,13 +24,13 @@ export default function ScanEase() {
             Goodbye spreadsheets, hello automation.
           </h4>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-            With Carbon Zero&apos;s ScanEase technology, collecting emissions data becomes effortless. Simply upload invoices, utility bills, or scanned documents — our AI instantly converts them into structured, audit- ready data.
+            With Carbon Scan&apos;s ScanEase technology, collecting emissions data becomes effortless. Simply upload invoices, utility bills, or scanned documents — our AI instantly converts them into structured, audit- ready data.
           </p>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
             No more manual entry, errors, or chasing files. Whether through ERP integration, bulk uploads, or smart scanning, ScanEase ensures your data is accurate, seamless, and ready for compliance.
           </p>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-            Focus on driving sustainability goals, while Carbon Zero handles the heavy lifting in the background.
+            Focus on driving sustainability goals, while Carbon Scan handles the heavy lifting in the background.
           </p>
         </motion.div>
 

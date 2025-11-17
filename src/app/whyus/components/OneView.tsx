@@ -41,7 +41,7 @@ export default function OneView() {
             All your climate data. One powerful view.
           </h5>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-            Carbon Zero&apos;s OneView dashboard unifies carbon accounting, AI- driven insights, and prescriptive analytics into a single, easy-to-use interface.
+            Carbon Scan&apos;s OneView dashboard unifies carbon accounting, AI- driven insights, and prescriptive analytics into a single, easy-to-use interface.
           </p>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
             From real-time emission tracking to regulatory compliance status, offset progress, and future reduction targets — everything is visualized, connected, and actionable.

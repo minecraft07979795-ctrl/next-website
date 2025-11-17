@@ -50,7 +50,8 @@ export default function TestimonialSection(){
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-xl md:text-[24px] lg:text-3xl font-normal text-[#1A3A3A] leading-relaxed mb-8 italic"
           >
-            &quot;SmartCarbon&apos;s Climate Reality check presentation was superb! It raised all the right challenges but in a way that was a lot more accessible than I&apos;ve seen elsewhere.&quot;
+            {/* &quot;SmartCarbon&apos;s Climate Reality check presentation was superb! It raised all the right challenges but in a way that was a lot more accessible than I&apos;ve seen elsewhere.&quot; */}
+            &quot;Carbon Scan&apos;s Climate Reality check presentation was superb! It raised all the right challenges but in a way that was a lot more accessible than I&apos;ve seen elsewhere.&quot;
           </motion.blockquote>
 
           {/* Author Info */}
@@ -61,10 +62,12 @@ export default function TestimonialSection(){
             className="flex flex-col items-center"
           >
             <div className="text-[#1A3A3A] font-semibold text-lg mb-1">
-              Paul W Irwin-Rhodes
+              {/* Paul W Irwin-Rhodes */}
+              Dato’ Ahmad Shukri
             </div>
             <div className="text-[#1A3A3A] text-base">
-              Head of Sustainability and SHE, Greggs Plc
+              {/* Head of Sustainability and SHE, Greggs Plc */}
+              Chairman of Eddi Group
             </div>
           </motion.div>
 

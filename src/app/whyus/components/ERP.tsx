@@ -24,7 +24,7 @@ export default function ERP() {
             Seamless sustainability within your existing workflows.
           </h4>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-            Carbon Zero connects effortlessly with leading ERP platforms (SAP, Oracle, Microsoft Dynamics, Tally, and more) to automatically fetch energy, procurement, logistics, and financial data.
+            Carbon Scan connects effortlessly with leading ERP platforms (SAP, Oracle, Microsoft Dynamics, Tally, and more) to automatically fetch energy, procurement, logistics, and financial data.
           </p>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
             This eliminates manual uploads, reduces errors, and ensures that your carbon accounting and reporting run in sync with your core business operations.

@@ -16,7 +16,7 @@ export default function Journey() {
           {/* Left Side */}
           <div >
             <h1 className="text-3xl w-[108%]  md:text-[60px] font-semibold text-[#1A3A3A] leading-tight">
-              See How Carbon Zero Simplifies Your Carbon Journey
+              See How Carbon Scan Simplifies Your Carbon Journey
             </h1>
             <p className="mt-4 text-gray-600 w-[101%] text-lg text-[20px]">
               Drive growth, meet compliance, and cut emissions with smart carbon

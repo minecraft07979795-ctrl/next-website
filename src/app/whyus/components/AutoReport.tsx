@@ -41,7 +41,7 @@ export default function AutoReport() {
             From raw data to regulator-ready reports.
           </h5>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-            Carbon Zero&apos;s AutoReport automates sustainability disclosures for frameworks like BURSA, GHG Protocol, CDP, TCFD, and ESG benchmarks. No more manual formatting or endless cross-checks.
+            Carbon Scan&apos;s AutoReport automates sustainability disclosures for frameworks like BURSA, GHG Protocol, CDP, TCFD, and ESG benchmarks. No more manual formatting or endless cross-checks.
           </p>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
             Generate audit-ready, investor-friendly reports in minutes — with customizable templates, real-time updates, and one-click exports for boards, regulators, or stakeholders.

@@ -24,7 +24,7 @@ export default function Prescripto() {
             From &quot;<span className="text-[#8DD95B]" >what to do</span>&quot; to &quot;<span className="text-[#8DD95B]" >how to do it.</span>&quot;
           </h4>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-            Carbon Zero&apos;s Prescripto doesn&apos;t just tell you where emissions come from — it prescribes clear, step-by-step actions to cut them.
+            Carbon Scan&apos;s Prescripto doesn&apos;t just tell you where emissions come from — it prescribes clear, step-by-step actions to cut them.
           </p>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
             Our prescriptive analytics engine uses AI and industry best practices to recommend specific interventions, whether it&apos;s switching to cleaner energy sources, optimizing supply chains, or adopting greener operations.

@@ -38,7 +38,7 @@ export default function CarbonZero(){
           Accelerate Your Path To Net Zero
         </h1>
         <h2 className="text-3xl md:text-4xl font-bold text-[#8DD95B] mt-2">
-          With Carbon Zero
+          With Carbon Scan
         </h2>
       </div>
 

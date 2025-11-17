@@ -22,13 +22,13 @@ const events = [
     title: "From hops to hotspots:",
     desc: "Hop Nation’s first step toward decarbonisation",
     img: "/hops.png",
-    link: "/events/hops-to-hotspots",
+    link: "",
   },
   {
     title: "Unboxing EPR & PPWR:",
     desc: "The Climate Implications of Packaging Regulation",
     img: "/recy.png", // replace with your image path
-    link: "/events/unboxing-epr",
+    link: "",
   },
 ];
 
@@ -89,7 +89,7 @@ export default function Resources() {
             </div>
           ))}
           <button
-            onClick={() => router.push("/events")}
+            onClick={() => router.push("/resources")}
             className="text-green-700 font-medium hover:underline text-sm"
           >
             See all Events &gt;

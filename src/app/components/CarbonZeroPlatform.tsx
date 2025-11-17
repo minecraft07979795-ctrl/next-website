@@ -233,7 +233,7 @@ export default function CarbonZeroPlatform(){
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            How Carbon Zero Works
+            How Carbon Scan Works
           </h1>
           <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Empower your sustainability journey with clear, actionable steps — from training teams to 

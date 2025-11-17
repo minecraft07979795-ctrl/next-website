@@ -41,7 +41,7 @@ export default function InsightAI() {
             From data to action.
           </h5>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-           Carbon Zero&apos;s InsightAI turns raw carbon data into powerful insights. Our AI engine analyzes your emissions trends, benchmarks you against industry standards, and highlights high-impact reduction opportunities.
+           Carbon Scan&apos;s InsightAI turns raw carbon data into powerful insights. Our AI engine analyzes your emissions trends, benchmarks you against industry standards, and highlights high-impact reduction opportunities.
           </p>
           <p className="mt-4 text-gray-600 text-lg leading-relaxed">
             Go beyond reporting — plan for the future. InsightAI helps you simulate scenarios, forecast your carbon footprint, and build data-backed strategies to meet net-zero commitments faster.
